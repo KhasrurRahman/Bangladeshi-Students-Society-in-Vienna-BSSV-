@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://bangladeshi-students-society-in-vienna-bssv.vercel.app", // replace this with your deployed domain
   author: "MD Khasrur Rahman",
   profile: "https://khasrurrahman.github.io/portfolio/",
   desc: "Bangladeshi Students Society in Vienna (BSSV) 🇧🇩 🇦🇹",
@@ -12,7 +12,7 @@ export const SITE = {
   showArchives: true,
   showBackButton: true, // show back button in post detail
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+    url: "https://github.com/KhasrurRahman/Bangladeshi-Students-Society-in-Vienna-BSSV-",
     text: "Suggest Changes",
     appendFilePath: true,
   },
