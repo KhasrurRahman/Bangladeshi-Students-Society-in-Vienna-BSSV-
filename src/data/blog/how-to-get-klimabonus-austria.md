@@ -1,7 +1,6 @@
 ---
 author: BSSV Team
-pubDatetime: 2025-03-18T22:00:00Z
-modDatetime: 2025-03-18T22:00:00Z
+pubDatetime: 2025-03-06T04:06:31Z
 title: How to Get the Klimabonus in Austria 🌱💰
 slug: how-to-get-klimabonus-austria
 featured: false

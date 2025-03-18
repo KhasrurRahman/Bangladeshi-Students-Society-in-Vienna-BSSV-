@@ -1,7 +1,6 @@
 ---
 author: BSSV Team
-pubDatetime: 2025-03-19T12:00:00Z
-modDatetime: 2025-03-19T12:00:00Z
+pubDatetime: 2025-03-06T04:06:31Z
 title: How to Visit a Doctor in Austria as an International Student 🏥🇦🇹
 slug: how-to-visit-doctor-austria-students
 featured: false

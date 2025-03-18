@@ -1,7 +1,6 @@
 ---
 author: BSSV Team
-pubDatetime: 2025-03-19T10:00:00Z
-modDatetime: 2025-03-19T10:00:00Z
+pubDatetime: 2025-03-06T04:06:31Z
 title: House Contract in Austria – Wohnrechtsvereinbarung 🏠🇦🇹
 slug: house-contract-austria
 featured: false

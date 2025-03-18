@@ -1,7 +1,6 @@
 ---
 author: BSSV Team
-pubDatetime: 2025-03-18T14:00:00Z
-modDatetime: 2025-03-18T14:00:00Z
+pubDatetime: 2025-03-06T04:06:31Z
 title: Best SIM Cards for Students in Vienna 📱🇦🇹
 slug: best-sim-cards-for-students-vienna
 featured: false

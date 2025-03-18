@@ -1,7 +1,6 @@
 ---
 author: BSSV Team
-pubDatetime: 2025-03-19T14:00:00Z
-modDatetime: 2025-03-19T14:00:00Z
+pubDatetime: 2025-03-06T04:06:31Z
 title: How to Get a Meldezettel (Address Registration) in Austria 🏠🇦🇹
 slug: how-to-get-meldezettel-austria
 featured: false

@@ -1,17 +1,21 @@
 ---
+title: Example Draft Post asdas asdas asdas
 author: BSSV Team
-pubDatetime: 2025-03-06T04:06:31Z
-title: How to Get Austrian Health Insurance as a Student (ÖGK Student Insurance Guide) 🏥🇦🇹
-slug: how-to-get-austrian-student-health-insurance
-featured: False
-draft: false
+pubDatetime: 2022-06-06T04:06:31Z
+slug: example-draft-post-aaa
+featured: true
+draft: true
 tags:
-  - healthcare
+  - accommodation
   - students
   - Austria
-  - insurance
-description: A step-by-step guide on how international students can get Austrian public health insurance (ÖGK), including requirements, costs, and how to apply.
+  - rental
+description:
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel
+  fringilla est
 ---
+
 
 If you are a student in Austria, **having health insurance is mandatory**. The **Österreichische Gesundheitskasse (ÖGK)** provides affordable student health insurance that covers **doctor visits, hospitals, medications, and more**. This guide explains **how to apply, costs, and what’s covered**.  
 

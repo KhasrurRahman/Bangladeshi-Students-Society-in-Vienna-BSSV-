@@ -1,7 +1,6 @@
 ---
 author: BSSV Team
-pubDatetime: 2025-03-18T19:00:00Z
-modDatetime: 2025-03-18T19:00:00Z
+pubDatetime: 2025-03-06T04:06:31Z
 title: Best Banks for Students in Vienna 🏦🇦🇹
 slug: best-banks-for-students-vienna
 featured: false

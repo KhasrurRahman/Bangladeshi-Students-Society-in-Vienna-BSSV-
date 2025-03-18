@@ -1,7 +1,6 @@
 ---
 author: BSSV Team
-pubDatetime: 2025-03-18T20:00:00Z
-modDatetime: 2025-03-18T20:00:00Z
+pubDatetime: 2025-03-06T04:06:31Z
 title: How to Create a FinanzOnline Account in Austria 💰🇦🇹
 slug: how-to-create-finanzonline-account
 featured: false

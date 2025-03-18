@@ -1,8 +1,7 @@
 ---
+title: How to Get Permission from AMS to Work as a Student in Austria
 author: BSSV Team
-pubDatetime: 2025-03-18T23:00:00Z
-modDatetime: 2025-03-18T23:00:00Z
-title: How to Get Permission from AMS to Work as a Student in Austria 🏢🇦🇹
+pubDatetime: 2025-03-06T04:06:31Z
 slug: how-to-get-ams-work-permission-austria
 featured: true
 draft: false
@@ -11,7 +10,8 @@ tags:
   - jobs
   - Austria
   - AMS
-description: A complete guide for students in Austria on how to get work permission from AMS, including the required form and AMS office location for submission.
+description: 
+  A complete guide for students in Austria on how to get work permission from AMS, including the required form and AMS office location for submission.
 ---
 
 If you are a **non-EU student** in Austria, you need **permission from AMS (Arbeitsmarktservice)** before starting a job. This guide explains how to **apply for AMS work authorization, submit your form, and check your application status.**  
