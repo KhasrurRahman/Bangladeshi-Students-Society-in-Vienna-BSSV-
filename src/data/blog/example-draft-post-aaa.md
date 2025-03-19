@@ -1,9 +1,9 @@
 ---
 title: Example Draft Post asdas asdas asdas
 author: BSSV Team
-pubDatetime: 2022-06-06T04:06:31Z
+pubDatetime: 2025-06-06T04:06:31Z
 slug: example-draft-post-aaa
-featured: true
+featured: false
 draft: true
 tags:
   - accommodation

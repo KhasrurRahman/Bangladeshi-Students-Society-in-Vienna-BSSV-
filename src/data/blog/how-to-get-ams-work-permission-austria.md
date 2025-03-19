@@ -1,7 +1,7 @@
 ---
 title: How to Get Permission from AMS to Work as a Student in Austria
 author: BSSV Team
-pubDatetime: 2025-03-06T04:06:31Z
+pubDatetime: 2025-03-15T04:06:31Z
 slug: how-to-get-ams-work-permission-austria
 featured: true
 draft: false

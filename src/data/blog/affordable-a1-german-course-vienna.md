@@ -1,138 +1,51 @@
 ---
-author: BSSV Team
-pubDatetime: 2025-19-06T04:06:31Z
 title: কম খরচে A1 জার্মান কোর্স কোথায় করা যায়? 🇦🇹
+author: BSSV Team
+pubDatetime: 2025-03-19T18:00:00Z
 slug: affordable-a1-german-course-vienna
-featured: true
+featured: false
 draft: false
 tags:
   - german-course
   - students
   - Austria
   - language-learning
-description: কম খরচে A1 জার্মান কোর্স কোথায় করা যায়? INNES Vienna, VHS, এবং অন্যান্য বিকল্প সম্পর্কে বিস্তারিত জানুন।
+description:
+  কম খরচে A1 জার্মান কোর্স কোথায় করা যায়? INNES Vienna, VHS, এবং অন্যান্য বিকল্প সম্পর্কে বিস্তারিত জানুন।
 ---
 
 
-If you are a student in Austria, **having health insurance is mandatory**. The **Österreichische Gesundheitskasse (ÖGK)** provides affordable student health insurance that covers **doctor visits, hospitals, medications, and more**. This guide explains **how to apply, costs, and what’s covered**.  
+আপনি যদি **কম খরচে ভালো মানের A1 জার্মান কোর্স** করতে চান, তাহলে এখানে কিছু ভালো অপশন আছে যা গ্রুপের সদস্যরা সুপারিশ করেছেন।  
 
 ---
 
-## ✅ **Why Do Students Need Health Insurance in Austria?**  
-✔️ **Legal Requirement** – You must have valid health insurance for **visa renewal**.  
-✔️ **Covers Doctor Visits** – General check-ups, specialists, and hospital care.  
-✔️ **Prescriptions & Medications** – Most medicines are **heavily discounted**.  
-✔️ **Emergency Treatment** – Ambulance, emergency services, and hospital stays.  
-
-💡 **Without insurance, medical costs can be VERY expensive (€50-€500 per visit).**  
+## **1️⃣ INNES Vienna – Intensive German Course**  
+🔗 **ওয়েবসাইট:** [INNES Vienna](https://innesvienna.net/german-course/intensive-german-language-course/)  
+✔️ **A1 থেকে C1 পর্যন্ত কোর্স**  
+✔️ ছোট ছোট গ্রুপে ক্লাস, দ্রুত শেখার সুযোগ  
 
 ---
 
-## 📌 **Who Can Apply for ÖGK Student Insurance?**  
+## **2️⃣ VHS (Volkshochschule) – সাশ্রয়ী জার্মান কোর্স**  
+🔗 **ওয়েবসাইট:** [VHS](https://www.vhs.at/de)  
+✔️ **প্রত্যেক জেলা (district)-তে VHS সেন্টার আছে**, যেখানে জার্মান কোর্স করানো হয়  
+✔️ **কিস্তিতে টাকা পরিশোধের সুযোগ (Ratenzahlung)** – কিছু VHS-এ কিস্তিতে টাকা দেয়ার সুবিধা আছে  
+✔️ **বেসরকারি প্রতিষ্ঠানগুলোর তুলনায় তুলনামূলক সস্তা**  
 
-✔️ **Non-EU/EEA students** studying in Austria.  
-✔️ **EU/EEA students** who do NOT have an EHIC card.  
-✔️ **Students under 27 years old** (for discounted rates).  
-✔️ **Self-funded students or students without employer-provided insurance.**  
-
-💡 **If you work part-time in Austria (earning over €500/month), your employer will automatically register you for ÖGK insurance.**  
-
----
-
-## 💰 **How Much Does ÖGK Student Insurance Cost?**  
-
-| Type of Insurance | Monthly Cost | Who is Eligible? |
-|------------------|-------------|------------------|
-| **Student ÖGK Insurance** | **€66.79/month** | Students under 27, studying full-time |
-| **Self-Employed/Private Insurance** | **€150 – €300/month** | If you do not qualify for student ÖGK |
-| **Employer-Paid ÖGK Insurance** | **€0 (Paid by Employer)** | If you work part-time/full-time |
-
-💡 **ÖGK Student Insurance is the cheapest option for students!**  
+💡 **টিপস:**  
+✔️ যদি আপনি **AMS (Public Employment Service)-এ নিবন্ধিত থাকেন**, তাহলে আপনি **Arbeiterkammer থেকে প্রতি বছর €150 ভাউচার** পেতে পারেন, যা কিছু কোর্সে ব্যবহার করা যায়!  
 
 ---
 
-## 📌 **How to Apply for ÖGK Student Insurance?**  
-
-### **1️⃣ Prepare Your Documents**  
-✔️ **Passport or Residence Permit** (Aufenthaltstitel)  
-✔️ **Meldezettel (Address Registration)**  
-✔️ **University Enrollment Certificate (Studienbestätigung)**  
-✔️ **Bank Account IBAN** (for automatic payments)  
+## **⚠️ কোর্স বাছাইয়ের আগে কিছু গুরুত্বপূর্ণ বিষয়**  
+✔️ **যতটা সম্ভব Austrian/German শিক্ষকের কাছ থেকে শিখতে চেষ্টা করুন**, কারণ উচ্চারণ ভুল হলে পরে ঠিক করা কঠিন হয়ে যায়।  
+✔️ **কিছু VHS কিস্তিতে টাকা পরিশোধের সুবিধা দেয়**, তাই খোঁজ নিয়ে দেখুন।  
+✔️ **দ্রুত শেখার জন্য ইনটেনসিভ কোর্স (Intensive Course) করার চেষ্টা করুন।**  
 
 ---
 
-### **2️⃣ Submit Your Application**  
-You can apply for ÖGK **in person or online**.  
+## **💬 আপনার জানা অন্য কোনো ভালো কোর্স থাকলে শেয়ার করুন!**  
+আপনি যদি আরও কোনো **সাশ্রয়ী ও ভালো মানের জার্মান কোর্স** সম্পর্কে জানেন, তাহলে **গ্রুপে শেয়ার করুন** যেন অন্যরাও উপকৃত হতে পারে!  
 
-📍 **Visit the nearest ÖGK office:**  
-🔗 **Find your nearest ÖGK office here:** [ÖGK Locations](https://www.gesundheitskasse.at/)  
-
-🖥️ **Online Registration (for existing customers):**  
-🔗 **[ÖGK Online Service](https://www.gesundheitskasse.at/portal27/portal/gesundheitskasse/)**  
-
-💡 **Walk-in applications are accepted. No prior appointment is needed!**  
-
----
-
-### **3️⃣ Receive Your E-Card (Health Insurance Card)**  
-✔️ After approval, **ÖGK will mail your E-Card to your registered address**.  
-✔️ This card is needed for **doctor visits, pharmacies, and hospital treatments**.  
-
-💡 **If you need medical treatment before receiving your E-Card, ask for a temporary insurance confirmation from ÖGK!**  
-
----
-
-## 🏥 **What Does ÖGK Student Insurance Cover?**  
-
-✔️ **Doctor visits (Hausarzt, specialists, gynecologists, etc.)**  
-✔️ **Hospital treatment (emergency & planned surgeries)**  
-✔️ **Dental check-ups & basic dental treatment**  
-✔️ **Prescriptions & pharmacy discounts**  
-✔️ **Psychological therapy & mental health support**  
-✔️ **Ambulance & emergency transport**  
-
-💡 **Some services (braces, advanced dental work, private hospitals) require extra payment.**  
-
----
-
-## 🔍 **How to Use Your ÖGK Insurance?**  
-
-✔️ **Show your E-Card** at the doctor’s office.  
-✔️ **Check if the doctor accepts “Alle Kassen”** (public insurance).  
-✔️ **You don’t have to pay for general doctor visits.**  
-✔️ **Prescriptions will be discounted at the pharmacy.**  
-
-💡 **For private doctors, you must pay upfront and request reimbursement from ÖGK.**  
-
----
-
-## ⚠️ **Common Problems & How to Solve Them**  
-
-| Issue  | Solution |
-|--------|----------|
-| Didn’t receive your E-Card? | Contact ÖGK office to check your application status. |
-| Need medical help before E-Card arrives? | Ask for a temporary insurance confirmation from ÖGK. |
-| Moving to a new address? | Update your **Meldezettel & ÖGK records**. |
-| Forgot to pay monthly fees? | Pay through **direct debit (SEPA) or at the bank**. |
-
----
-
-## 📞 **ÖGK Contact & Support**  
-
-📍 **ÖGK Office Locations:** [Find an ÖGK Office](https://www.gesundheitskasse.at/)  
-📞 **Customer Support:** **+43 5 0766 112200**  
-📧 **Email:** **kundenservice@oegk.at**  
-
-📢 **[Join Our WhatsApp Group](https://chat.whatsapp.com/LmVZz7wgJAd8Y95HYY2reQ) for student insurance tips!**  
-
----
-
-## 🔗 **Final Summary: How to Get ÖGK Student Insurance**  
-✔️ **Check if you’re eligible for student insurance (€66.79/month).**  
-✔️ **Gather your documents (passport, Meldezettel, university enrollment certificate).**  
-✔️ **Apply at an ÖGK office or online.**  
-✔️ **Receive your E-Card for free medical treatment.**  
-✔️ **Use your insurance for doctor visits, hospitals, and prescriptions.**  
-
-🎉 **Now You Know How to Get Austrian Health Insurance as a Student!**  
-With ÖGK insurance, **you are covered for all medical needs in Austria**. 🚀  
+📢 **আরো তথ্যের জন্য ভিজিট করুন:**  
+🔗 **[Bangladeshi Students Society in Vienna (BSSV)](https://bangladeshi-students-society-in-vienna.vercel.app)** 🚀  

@@ -1,6 +1,6 @@
 ---
 author: BSSV Team
-pubDatetime: 2025-03-06T04:06:31Z
+pubDatetime: 2025-03-18T04:06:31Z
 title: Things to Do After Landing in Vienna as a Student 🇦🇹
 slug: things-to-do-after-landing-vienna
 featured: true
