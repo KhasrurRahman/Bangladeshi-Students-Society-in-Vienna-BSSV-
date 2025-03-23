@@ -48,7 +48,7 @@ title: "Student Data"
       width: 100%;
     }
     .student-card img {
-      height: 140px;
+      height: 215px;
     }
   }
 
