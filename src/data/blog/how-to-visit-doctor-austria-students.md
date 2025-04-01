@@ -1,7 +1,7 @@
 ---
 author: BSSV Team
 pubDatetime: 2025-03-06T04:06:31Z
-title: How to Visit a Doctor in Austria as an International Student 🏥🇦🇹
+title: অস্ট্রিয়ায় শিক্ষার্থী হিসেবে কীভাবে ডাক্তার দেখাবেন 🏥🇦🇹
 slug: how-to-visit-doctor-austria-students
 featured: false
 draft: false
@@ -10,121 +10,123 @@ tags:
   - students
   - Austria
   - insurance
-description: A step-by-step guide on how international students can visit a doctor in Austria, including insurance options, finding English-speaking doctors, and emergency healthcare services.
+description: স্ট্রিয়ায় একজন শিক্ষার্থী হিসেবে কীভাবে ডাক্তার দেখাতে হয়, কী ইনস্যুরেন্স দরকার, খরচ কত, জরুরি চিকিৎসা, ও জরুরি হেল্পলাইন সম্পর্কে সহজ ভাষায় বিস্তারিত।
 ---
-
-If you are a student in Austria, you will **need health insurance** to visit a doctor for free or at a reduced cost. Here’s a complete guide on how to **find a doctor, use your health insurance, and get medical treatment.**  
-
----
-
-## ✅ **What Type of Health Insurance Do Students Need?**  
-
-📌 **International students in Austria must have valid health insurance to access medical care.**  
-You can use:  
-
-✔️ **ÖGK (Austrian Public Insurance) – Most common student insurance**  
-✔️ **Private Insurance – UNIQA, Care Concept, Feelsafe, etc.**  
-✔️ **EU Health Insurance Card (EHIC) – If you are from the EU/EEA**  
-
-💡 **If you are working part-time in Austria, your employer may provide ÖGK insurance.**  
+যদি আপনি অস্ট্রিয়ায় একজন আন্তর্জাতিক শিক্ষার্থী হন, তাহলে **স্বাস্থ্য বীমা (health insurance)** থাকা বাধ্যতামূলক। এই পোস্টে সহজভাবে ব্যাখ্যা করা হয়েছে কিভাবে ডাক্তার খুঁজবেন, ইনস্যুরেন্স ব্যবহার করবেন এবং কখন কি করবেন।  
 
 ---
 
-## 📌 **How to Find a Doctor in Austria?**  
+## ✅ শিক্ষার্থীদের জন্য কোন ইনস্যুরেন্স দরকার?  
 
-### **1️⃣ Search for a Doctor Near You**  
-🔎 Use these websites to find doctors in your area:  
+📌 আপনাকে অবশ্যই নিচের যেকোনো একটি ইনস্যুরেন্স নিতে হবে:
 
-🔗 **[Doctor Search – Österreichische Gesundheitskasse (ÖGK)](https://www.gesundheitskasse.at/)**  
-🔗 **[Arztsuche (Doctor Finder) – Ärztekammer](https://www.arztnoe.at/)**  
+- **ÖGK (Austrian public insurance)** – সবচেয়ে জনপ্রিয় এবং সাশ্রয়ী  
+- **Private insurance** – যেমন UNIQA, Care Concept  
+- **EU Health Card (EHIC)** – যদি আপনি EU/EEA থেকে আসেন  
 
-💡 **Tip:** Use the filter **“Sprache” (Language) → English** to find English-speaking doctors.  
-
----
-
-### **2️⃣ Check if the Doctor Accepts Your Insurance**  
-- If you have **ÖGK insurance**, look for **"Alle Kassen"** (Accepts public insurance).  
-- If you have **private insurance**, you may need to pay first and request reimbursement.  
-- **For private doctors**, check their website for pricing (they usually charge €50–€120 per visit).  
+💡 যদি আপনি পার্ট-টাইম কাজ করেন, অনেক সময় আপনার ইনস্যুরেন্স অটোমেটিকভাবে আপনার চাকরিদাতা দিয়ে দেন।  
 
 ---
 
-### **3️⃣ First Doctor Registration & House Doctor Rule**  
-✔️ **The first general doctor (Hausarzt) you visit will automatically be assigned as your primary doctor.**  
-✔️ **You can change your house doctor after 3 months** if needed.  
-✔️ To change your doctor, you **must register with a new doctor and inform ÖGK or your insurance provider.**  
+## 📝 প্রথমবার Anmeldung করলে ইন্স্যুরেন্স ফি কেমন হয়?  
 
-💡 **Tip:** Choose a doctor carefully since you will be assigned to them for at least 3 months!  
+- প্রথমবার Anmeldung করলে, প্রথম মাসে ইনস্যুরেন্স একটু বেশি হয় – **প্রায় €87.28**  
+- এরপর থেকে প্রতি মাসে **€73.28** দিতে হয়  
 
 ---
 
-### **4️⃣ Make an Appointment**  
-📞 Call the doctor’s office or book online via:  
-- **Doctena** → [www.doctena.at](https://www.doctena.at/)  
-- **Arztsuche** → [www.arztnoe.at](https://www.arztnoe.at/)  
+## 🧑‍⚕️ কিভাবে ডাক্তার খুঁজবেন?  
 
-💡 **Tip:** General practitioners (**Hausarzt**) don’t always require an appointment. Walk-ins may be possible.  
+🔎 নিচের ওয়েবসাইটগুলোতে গিয়ে আপনার এলাকার ডাক্তার খুঁজুন:
 
----
+- [www.gesundheitskasse.at](https://www.gesundheitskasse.at)  
+- [www.arztnoe.at](https://www.arztnoe.at)  
+- [www.doctena.at](https://www.doctena.at)  
 
-## 🚨 **Emergency Medical Help (If You Need Urgent Care)**  
-
-If you need **urgent medical attention**, go to:  
-
-### **📍 Emergency Rooms & Hospitals**  
-✔️ **AKH Wien (Vienna General Hospital)** – [www.akhwien.at](https://www.akhwien.at/)  
-✔️ **SMZ Ost – Donauspital (Hospital in Vienna 22)**  
-
-🚑 **Emergency Hotline Numbers:**  
-📞 **144** – Ambulance (Rettung)  
-📞 **141** – Emergency Doctor (Notarzt)  
-📞 **112** – General EU Emergency Number  
-
-💡 **Tip:** If it’s not an emergency but you need medical advice, call **1450 (Health Hotline).**  
+💡 ফিল্টারে **Sprache → English** সিলেক্ট করলে ইংরেজিভাষী ডাক্তার দেখাবে।  
 
 ---
 
-## 💊 **How to Get Prescription Medicine in Austria?**  
-- Doctors **will give you a prescription (Rezept)** after your visit.  
-- You can buy medicine at any **Apotheke (Pharmacy)**.  
-- **Pharmacies have emergency services at night and on weekends.**  
+## 🩺 হাউজডক্টর নিয়ম (Hausarzt System)  
 
-📌 **Find the nearest open pharmacy here:** [Apotheken Notdienst](https://apo24.at/)  
+✔️ আপনি প্রথম যে জেনারেল ডাক্তার (Hausarzt) এর কাছে যাবেন, তিনি স্বয়ংক্রিয়ভাবে আপনার **primary doctor** হয়ে যাবেন।  
+✔️ চাইলে আপনি **৩ মাস পর doctor change** করতে পারবেন।  
 
----
-
-## 💰 **How Much Does a Doctor Visit Cost?**  
-
-| Type of Visit | Cost with ÖGK Insurance | Cost Without Insurance |
-|--------------|---------------------|-----------------------|
-| General Doctor (Hausarzt) | **Free** | €50 – €120 |
-| Specialist Visit (Dermatologist, ENT, etc.) | **Free (if referred)** | €80 – €200 |
-| Emergency Hospital Visit | **Free** | €200 – €500 |
-| Private Doctor | **Not covered** | €100 – €300 |
-
-💡 **Tip:** If you visit a **private doctor**, ask for an **"Honorarnote"** (invoice) to claim reimbursement from your insurance.  
+💡 তাই প্রথমবার ভালোভাবে খুঁজে নিয়ে ডাক্তার সিলেক্ট করুন।  
 
 ---
 
-## 📢 **Final Tips for Students**  
-✔️ **Always carry your E-Card (ÖGK) or insurance document.**  
-✔️ **Check if the doctor accepts your insurance before visiting.**  
-✔️ **For minor health issues, pharmacies can provide basic medication.**  
-✔️ **For urgent care, call 1450 for medical advice.**  
+## 📅 অ্যাপয়েন্টমেন্ট নিতে হলে...  
 
-📢 **Need More Help?**  
-📞 **ÖGK Support:** +43 5 0766 112200  
-📍 **Find a Doctor:** [www.gesundheitskasse.at](https://www.gesundheitskasse.at/)  
-📢 **[Join Our WhatsApp Group](https://chat.whatsapp.com/LmVZz7wgJAd8Y95HYY2reQ) for student healthcare tips!**  
+- অনেক জেনারেল ডাক্তারদের কাছে সরাসরি যেতে পারেন  
+- অনেকে অ্যাপয়েন্টমেন্ট ছাড়া রোগী নেন না  
+
+💡 **ডাক্তার দেখানোর অ্যাপয়েন্টমেন্ট নিয়ে না গেলে, জরিমানা (penalty) দিতে হতে পারে। এজন্য ২৪–৪৮ ঘণ্টা আগে বাতিল করে দিন।**  
 
 ---
 
-## 🔗 **Final Summary: How to Visit a Doctor in Austria**  
-✔️ **Get health insurance (ÖGK, private, or EHIC).**  
-✔️ **Find a doctor online & check if they accept your insurance.**  
-✔️ **Your first doctor visit will register them as your house doctor.**  
-✔️ **You can change your doctor after 3 months.**  
-✔️ **Use 144 for medical emergencies & 1450 for advice.**  
+## 🚨 জরুরি অবস্থায় কী করবেন?  
 
-🎉 **Now You Know How to Visit a Doctor in Austria!**  
-With the right insurance and information, **getting medical help is easy and stress-free.** 🚀  
+📍 যদি আপনার অবস্থা খুব খারাপ হয়, সরাসরি হসপিটালে যান:
+
+- **AKH Wien** – [akhwien.at](https://www.akhwien.at)  
+- **SMZ Ost – Donauspital**  
+
+📞 জরুরি ফোন নাম্বার:
+
+- **144** – অ্যাম্বুলেন্স  
+- **141** – জরুরি ডাক্তার  
+- **1450** – স্বাস্থ্য হটলাইন  
+- **112** – EU emergency  
+
+---
+
+## 💊 প্রেসক্রিপশন ও ওষুধ  
+
+- ডাক্তার দেখানোর পর **prescription (Rezept)** দিবে  
+- যেকোনো **pharmacy (Apotheke)** থেকে ওষুধ কিনতে পারবেন  
+- রাত/সাপ্তাহিক ছুটির দিনেও কিছু ফার্মেসি খোলা থাকে  
+🔗 [আপনার নিকটস্থ খোলা ফার্মেসি খুঁজুন](https://apo24.at/)  
+
+---
+
+## 💰 ডাক্তার দেখানোর খরচ কেমন?
+
+| পরিষেবা | ÖGK ইনস্যুরেন্স থাকলে | ইনস্যুরেন্স ছাড়া |
+|---------|----------------------|--------------------|
+| সাধারণ ডাক্তার (Hausarzt) | ফ্রি | €50 – €120 |
+| স্পেশালিস্ট (ENT, চর্ম, ইত্যাদি) | রেফার করলে ফ্রি | €80 – €200 |
+| ইমার্জেন্সি হসপিটাল | ফ্রি | €200 – €500 |
+| প্রাইভেট ডাক্তার | কাভার করে না | €100 – €300 |
+
+💡 **প্রাইভেট ডাক্তার দেখালে "Honorarnote" (ইনভয়েস) নিন, তাহলে কিছু রিফান্ড পেতে পারেন।**  
+
+---
+
+## 📢 শিক্ষার্থীদের জন্য কিছু পরামর্শ  
+
+- সব সময় **E-Card বা ইনস্যুরেন্স প্রমাণ** সঙ্গে রাখুন  
+- **ডাক্তার দেখানোর আগে** জেনে নিন তারা আপনার ইনস্যুরেন্স গ্রহণ করেন কিনা  
+- **সাধারণ জ্বর/ঠান্ডা** হলে ফার্মেসি থেকেই সেবা নিতে পারেন  
+- জরুরি না হলে **১৪৫০** হেল্পলাইনে কল দিন  
+
+---
+
+## 📞 সাহায্য দরকার?  
+
+- **ÖGK হেল্পলাইন:** +43 5 0766 112200  
+- **ওয়েবসাইট:** [www.gesundheitskasse.at](https://www.gesundheitskasse.at)  
+- **হেল্প পেতে জয়েন করুন:** [WhatsApp Group](https://chat.whatsapp.com/LmVZz7wgJAd8Y95HYY2reQ)  
+
+---
+
+## 🔚 সংক্ষিপ্তভাবে বললে:
+
+✔️ ইনস্যুরেন্স নিন (ÖGK, private, EHIC)  
+✔️ নিজের জন্য একজন হাউজডক্টর সিলেক্ট করুন  
+✔️ ৩ মাস পর চাইলে পরিবর্তন করুন  
+✔️ জরুরি চিকিৎসার জন্য ফোন নম্বর মনে রাখুন  
+✔️ প্রাইভেট ডাক্তার দেখলে ইনভয়েস নিন  
+
+🎉 এখন আপনি জানেন অস্ট্রিয়ায় কীভাবে ডাক্তার দেখাতে হয়!  
+**ভালো থাকুন, সুস্থ থাকুন!** 🚀  
