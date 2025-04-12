@@ -1,7 +1,7 @@
 ---
 author: BSSV Team
 pubDatetime: 2025-03-19T04:06:31Z
-title: Visa Renewal Process in Vienna 🇦🇹
+title: ভিয়েনায় শিক্ষার্থী ভিসা নবায়ন প্রক্রিয়া 🇦🇹
 slug: visa-renewal-process-vienna
 featured: true
 draft: false
@@ -9,40 +9,60 @@ tags:
   - visa
   - students
   - Austria
-description: A step-by-step guide for Bangladeshi students in Vienna to renew their student visa, including required documents, fees, and appointment booking details.
+description: ভিয়েনায় বাংলাদেশি শিক্ষার্থীদের জন্য সহজ ভাষায় ভিসা নবায়নের গাইড। কীভাবে অ্যাপয়েন্টমেন্ট নিবেন, কী কী কাগজ লাগবে, খরচ কত – সব কিছু ধাপে ধাপে ব্যাখ্যা করা হয়েছে।
 ---
 
-## Appointment Booking  
-To schedule an appointment, visit the [Appointment Website](https://www.wien.gv.at/kontakte/ma35/terminvereinbarung-aussenstellen.html) according to your current district.  
+## 📅 অ্যাপয়েন্টমেন্ট বুকিং  
 
-## Required Documents  
+প্রথমে আপনাকে MA35 অফিসে ভিসা নবায়নের জন্য **অ্যাপয়েন্টমেন্ট বুক করতে হবে।**  
+➡️ [অ্যাপয়েন্টমেন্ট লিঙ্কে যান](https://www.wien.gv.at/kontakte/ma35/terminvereinbarung-aussenstellen.html) এবং আপনার বসবাসের জেলার জন্য সঠিক অফিস সিলেক্ট করুন।
 
-1. **Registration Form:** [Download Link](https://drive.google.com/file/d/12sRhKiJ4oliu5kqLjgzn9LgO0KmhzGWV/view?usp=sharing)  
-2. **Passport:** Original and a copy.  
-3. **Passport Size Photos:** Four recent color photographs, size 3.5 x 4.5 cm.  
-4. **Current Accommodation Contract:** Proof of residence.  
-5. **Proof of Funds:** Evidence of sufficient funds to cover your stay in Austria:  
-   - EUR 1,217.96/month for individuals  
-   - EUR 1,921.46/month for couples  
-   - Additional EUR 187.93/month for each child  
-6. **Health Insurance:** Proof of comprehensive health insurance covering all risks in Austria.  
-7. **University Enrolment Confirmation:** Verification of ongoing university enrolment.  
-8. **Credit Reference Agency Extract:** Current extract from an officially recognized credit reference agency. [Get it here](https://digitalerantrag.ksv.at/Dip/?request=infopass-fuer-behoerden)  
-9. **Proof of Successful Study:** Evidence of passed examinations equivalent to at least eight semester hours per academic year or 16 ECTS credits for each academic year.  
-10. **Current Record of Studies (Studienbuchblatt):** Most recent academic record.  
-11. **For Employees:**  
-    - Employment contract.  
-    - Confirmation (Anzeigebestätigung) from the Public Employment Service Austria (AMS).  
-    - Salary slips for the last 3 months.  
-12. **Financial Documents:** Accessible through [FinanzOnline](https://finanzonline.bmf.gv.at/fon/)  
+---
 
-## Costs  
-- **Total:** EUR 160  
-  - Application submission: **EUR 120**  
-  - Permit grant: **EUR 20**  
-  - Fee for collection of police identification data: **EUR 20**  
+## 📄 প্রয়োজনীয় কাগজপত্র  
 
-## Reference  
-[OeAD Website](https://oead.at/en/to-austria/scholars/during-your-stay/residence-permit/renewal-of-your-residence-permit)  
+1. **নিবন্ধন ফর্ম (Antrag):**  
+   [ডাউনলোড করুন](https://drive.google.com/file/d/12sRhKiJ4oliu5kqLjgzn9LgO0KmhzGWV/view?usp=sharing)  
+2. **পাসপোর্ট:** মূল এবং কপি  
+3. **পাসপোর্ট সাইজ ছবি:** ৩.৫ × ৪.৫ সেমি সাইজের ৪টি রঙিন ছবি  
+4. **বাসস্থানের চুক্তিপত্র:** যেখানে থাকেন তার কন্ট্রাক্ট  
+5. **অর্থের প্রমাণ:**  
+   - একজনের জন্য: €1,217.96/মাস  
+   - দম্পতির জন্য: €1,921.46/মাস  
+   - প্রতিটি শিশুর জন্য অতিরিক্ত €187.93/মাস  
+6. **স্বাস্থ্য বীমা:** Austria-র জন্য উপযুক্ত হেলথ ইনস্যুরেন্স  
+7. **বিশ্ববিদ্যালয়ে ভর্তি প্রমাণ (Studienbestätigung):** আপনি এখনো ইউনিভার্সিটিতে ভর্তি আছেন তা প্রমাণ  
+8. **ক্রেডিট রিপোর্ট:** [এখান থেকে সংগ্রহ করুন](https://digitalerantrag.ksv.at/Dip/?request=infopass-fuer-behoerden)  
+9. **সফল পড়াশোনার প্রমাণ:** অন্তত ৮ ঘণ্টার লেকচার বা ১৬ ECTS প্রতি বছর  
+10. **Studienbuchblatt:** সর্বশেষ একাডেমিক রেকর্ড  
+11. **যদি চাকরি করেন:**  
+    - চাকরির চুক্তিপত্র  
+    - AMS থেকে Anzeigebestätigung  
+    - সর্বশেষ ৩ মাসের বেতন স্লিপ  
+12. **আর্থিক নথি:**  
+    [FinanzOnline-এ লগইন করে ডাউনলোড করুন](https://finanzonline.bmf.gv.at/fon/)
 
-**Note:** This information is useful for students whose visa renewal is due soon, as well as those planning to extend their visa next semester.  
+---
+
+## 💰 খরচ  
+
+| ধাপ | পরিমাণ |
+|-----|--------|
+| আবেদন জমা | €120  
+| পারমিট মঞ্জুর | €20  
+| পুলিশ ডেটা (ফিঙ্গারপ্রিন্ট) ফি | €20  
+| **মোট** | **€160**  
+
+---
+
+## ℹ️ রেফারেন্স  
+
+👉 [OeAD অফিশিয়াল ওয়েবসাইট](https://oead.at/en/to-austria/scholars/during-your-stay/residence-permit/renewal-of-your-residence-permit)  
+
+---
+
+## 🔔 নোট  
+এই তথ্যটি তাদের জন্য উপকারী যাদের ভিসা **শীঘ্রই শেষ হচ্ছে** বা যারা পরবর্তী সেমিস্টারের জন্য **ভিসা এক্সটেনশন করতে চান**।
+
+📌 বিস্তারিত তথ্য সবসময় MA35 অফিস ও অফিসিয়াল ওয়েবসাইটে চেক করুন।  
+📢 আরও সহায়তার জন্য ভিজিট করুন: [https://bangladeshi-students-society-in-vienna.vercel.app](https://bangladeshi-students-society-in-vienna.vercel.app)

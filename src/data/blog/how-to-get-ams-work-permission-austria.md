@@ -1,5 +1,5 @@
 ---
-title: How to Get Permission from AMS to Work as a Student in Austria
+title: অস্ট্রিয়ায় শিক্ষার্থী হিসেবে AMS থেকে কাজের অনুমতি নেওয়ার সহজ গাইড
 author: BSSV Team
 pubDatetime: 2025-03-15T04:06:31Z
 slug: how-to-get-ams-work-permission-austria
@@ -11,83 +11,89 @@ tags:
   - Austria
   - AMS
 description: 
-  A complete guide for students in Austria on how to get work permission from AMS, including the required form and AMS office location for submission.
+  অস্ট্রিয়ায় যারা নন-EU শিক্ষার্থী, তাদের AMS (Arbeitsmarktservice) থেকে কাজের অনুমতি নেওয়ার ধাপে ধাপে গাইড, প্রয়োজনীয় ফর্ম, অফিস লোকেশন এবং পরামর্শ সহ।
 ---
 
-If you are a **non-EU student** in Austria, you need **permission from AMS (Arbeitsmarktservice)** before starting a job. This guide explains how to **apply for AMS work authorization, submit your form, and check your application status.**  
-
----
-
-## ✅ **Who Needs AMS Work Permission?**  
-✔️ **Non-EU/EEA students** with a valid Austrian residence permit.  
-✔️ **Students working more than 10-20 hours per week.**  
-✔️ **Those applying for a new job (even if you had AMS permission before).**  
-
-💡 **Students from the EU/EEA do not need AMS permission.**  
+যদি আপনি অস্ট্রিয়ায় একজন **নন-EU শিক্ষার্থী** হয়ে থাকেন, তাহলে চাকরি শুরু করার আগে **AMS (Arbeitsmarktservice)** থেকে অনুমতি নিতে হবে। এখানে ধাপে ধাপে ব্যাখ্যা করা হয়েছে কীভাবে আবেদন করবেন, ফর্ম জমা দিবেন, এবং স্ট্যাটাস চেক করবেন।
 
 ---
 
-## 📌 **Step-by-Step Guide to Getting AMS Work Permission**  
+## ✅ কারা AMS অনুমতির প্রয়োজন?
 
-### 1️⃣ **Download & Fill Out the Application Form**  
-🔗 **[AMS Work Permit Application Form](https://www.formularservice.gv.at/site/fsrv/Resources/AMS/ABV/FBBK_Antrag_BB_Studierende_Künstler_innen.pdf)**  
+✔️ **Non-EU/EEA শিক্ষার্থী** যারা অস্ট্রিয়ায় বৈধ রেসিডেন্স পারমিট নিয়ে থাকেন  
+✔️ যারা **সপ্তাহে ১০-২০ ঘণ্টার বেশি কাজ করতে চান**  
+✔️ নতুন জবে আবেদন করলে, এমনকি পূর্বে AMS অনুমতি থাকলেও  
 
-✔️ Fill in your **personal details**.  
-✔️ Provide your **job contract** (if available).  
-✔️ Your **employer** must also fill out and sign the form.  
-
----
-
-### 2️⃣ **Submit Your Application to AMS**  
-You can submit your **filled-out form**:  
-📍 **In Person:** Visit the AMS branch and submit your form manually.  
-📍 **By Employer:** Your employer can submit it directly.  
-
-🔗 **AMS Office Location for Submission & Status Check:**  
-[Google Maps AMS Branch Location](https://maps.app.goo.gl/ka5KbjXkZf7MppTaA?g_st=com.google.maps.preview.copy)  
+💡 **EU/EEA শিক্ষার্থীদের AMS অনুমতির দরকার নেই।**
 
 ---
 
-### 3️⃣ **Wait for AMS Approval**  
-✔️ Processing time: **2-4 weeks**.  
-✔️ AMS may contact you or your employer for additional documents.  
-✔️ Once approved, you can **legally start working**.  
+## 📝 আবেদন করার ধাপ
+
+### 1️⃣ আবেদন ফর্ম ডাউনলোড ও পূরণ করুন
+
+🔗 [AMS কাজের অনুমতি আবেদন ফর্ম](https://www.formularservice.gv.at/site/fsrv/Resources/AMS/ABV/FBBK_Antrag_BB_Studierende_Künstler_innen.pdf)
+
+✔️ আপনার **ব্যক্তিগত তথ্য** পূরণ করুন  
+✔️ আপনার **চাকরির কন্ট্রাক্ট (যদি থাকে)** যুক্ত করুন  
+✔️ **নিয়োগকর্তা (employer)** ফর্মে অংশ পূরণ ও স্বাক্ষর করবেন
 
 ---
 
-## 🔍 **How to Check AMS Application Status?**  
-If you have already applied and want to check your status:  
-📍 **Visit the AMS Office in person:** [Google Maps AMS Branch](https://maps.app.goo.gl/ka5KbjXkZf7MppTaA?g_st=com.google.maps.preview.copy)  
-📞 **Call AMS Customer Support:** +43 50 904 440  
+### 2️⃣ আবেদন জমা দিন
+
+আপনি ফর্ম জমা দিতে পারেন:
+
+📍 **নিজে AMS অফিসে গিয়ে**  
+📍 **নিয়োগকর্তা সরাসরি জমা দিতে পারেন**  
+
+🔗 [AMS অফিস লোকেশন – Google Maps](https://maps.app.goo.gl/ka5KbjXkZf7MppTaA?g_st=com.google.maps.preview.copy)
 
 ---
 
-## 📝 **Work Hour Limits for Students in Austria**  
+### 3️⃣ অনুমতি পাওয়ার জন্য অপেক্ষা করুন
 
-| Student Type | Work Hours Allowed |
-|-------------|------------------|
-| Bachelor's Student | **Up to 20 hours/week** (with AMS permission) |
-| Master's Student | **Up to 20 hours/week** (with AMS permission) |
-| PhD Student | **Up to 20 hours/week** (with AMS permission) |
-
-💡 If your job requires more hours, AMS approval will depend on your **academic progress and work contract.**  
+✔️ সাধারণত **২–৪ সপ্তাহ** সময় লাগে  
+✔️ AMS প্রয়োজন হলে অতিরিক্ত ডকুমেন্ট চাইতে পারে  
+✔️ অনুমতি পাওয়ার পরই আপনি **আইনগতভাবে কাজ শুরু করতে পারবেন**
 
 ---
 
-## ⚠️ **Important Notes**  
-✔️ **Do NOT start working before getting AMS approval.**  
-✔️ **Your employer must be involved** in the process.  
-✔️ If you switch jobs, **you need a new AMS approval**.  
+## 🔍 আবেদন স্ট্যাটাস কীভাবে চেক করবেন?
+
+📍 **AMS অফিসে গিয়ে সরাসরি জিজ্ঞাসা করুন**  
+📞 **AMS কাস্টমার সাপোর্টে কল করুন:** +43 50 904 440  
+🔗 [Google Maps AMS লোকেশন](https://maps.app.goo.gl/ka5KbjXkZf7MppTaA?g_st=com.google.maps.preview.copy)
 
 ---
 
-## 📍 **Need Help?**  
-If you have any questions, you can:  
-📞 **Call AMS Support:** **+43 50 904 440**  
-📍 **Visit AMS Office:** [AMS Office Location](https://maps.app.goo.gl/ka5KbjXkZf7MppTaA?g_st=com.google.maps.preview.copy)  
-📢 **[Join Our WhatsApp Group](https://chat.whatsapp.com/LmVZz7wgJAd8Y95HYY2reQ) for student job tips!**  
+## ⏰ শিক্ষার্থীদের জন্য কাজের সময়সীমা
+
+| শিক্ষার্থী ধরন | সর্বোচ্চ কাজের অনুমতি |
+|------------------|--------------------------|
+| ব্যাচেলর | সপ্তাহে সর্বোচ্চ ২০ ঘণ্টা (AMS অনুমতি সহ) |
+| মাস্টার্স | সপ্তাহে সর্বোচ্চ ২০ ঘণ্টা (AMS অনুমতি সহ) |
+| পিএইচডি | সপ্তাহে সর্বোচ্চ ২০ ঘণ্টা (AMS অনুমতি সহ) |
+
+💡 এর বেশি সময় কাজ করতে চাইলে, AMS আপনার **একাডেমিক প্রগ্রেস ও জব কন্ট্রাক্ট** যাচাই করবে।
 
 ---
 
-🎉 **Now You Know How to Get AMS Work Permission!**  
-If you follow these steps, **you will get your AMS approval and start working legally in Austria.** 🚀  
+## ⚠️ গুরুত্বপূর্ণ বিষয়
+
+✔️ **AMS অনুমতি পাওয়ার আগে কাজ শুরু করবেন না**  
+✔️ **আপনার নিয়োগকর্তা (employer) কে ফর্ম পূরণে সাহায্য করতে হবে**  
+✔️ চাকরি বদলালে **নতুন করে AMS অনুমতি নিতে হবে**
+
+---
+
+## 📞 সাহায্য দরকার?
+
+📞 **AMS হেল্পলাইন:** +43 50 904 440  
+📍 **AMS অফিস লোকেশন:** [Google Maps](https://maps.app.goo.gl/ka5KbjXkZf7MppTaA?g_st=com.google.maps.preview.copy)  
+📢 **[আমাদের WhatsApp গ্রুপে জয়েন করুন](https://chat.whatsapp.com/LmVZz7wgJAd8Y95HYY2reQ)** – ছাত্রদের কাজের পরামর্শ ও সহায়তার জন্য
+
+---
+
+🎯 এখন আপনি জানেন **কীভাবে AMS অনুমতি নিতে হয়**!  
+এই ধাপগুলো অনুসরণ করলে আপনি সহজেই অনুমতি পেয়ে **আইন অনুযায়ী কাজ করতে পারবেন**। 🚀
