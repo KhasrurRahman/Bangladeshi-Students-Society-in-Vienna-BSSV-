@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://bangladeshi-students-society-in-vienna-bssv.vercel.app", // replace this with your deployed domain
+  website: "https://bangladeshi-students-society-in-vienna.vercel.app", // replace this with your deployed domain
   author: "MD Khasrur Rahman",
   profile: "https://khasrurrahman.github.io/portfolio/",
   desc: "Bangladeshi Students Society in Vienna (BSSV) 🇧🇩 🇦🇹",
