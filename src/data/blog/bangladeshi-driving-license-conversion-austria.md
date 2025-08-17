@@ -10,7 +10,7 @@ tags:
   - Austria
   - students
   - license
-description: বাংলাদেশী শিক্ষার্থীদের জন্য ধাপে ধাপে গাইড — কীভাবে বাংলাদেশী ড্রাইভিং লাইসেন্সকে অস্ট্রিয়ান লাইসেন্সে কনভার্ট করবেন, খরচ, প্রয়োজনীয় ডকুমেন্ট এবং পরীক্ষার প্রক্রিয়া।
+description: A complete step-by-step guide for Bangladeshi students on how to convert a Bangladeshi driving license into an Austrian license, including required documents, costs, medical check-up, and practical exam.
 ---
 
 যদি আপনার কাছে বাংলাদেশী ড্রাইভিং লাইসেন্স থাকে এবং সেটিকে **অস্ট্রিয়ান লাইসেন্সে কনভার্ট করতে চান**, তবে কিছু ধাপ অনুসরণ করতে হবে। নিচে সহজভাবে পুরো প্রক্রিয়াটি ব্যাখ্যা করা হলো।  
