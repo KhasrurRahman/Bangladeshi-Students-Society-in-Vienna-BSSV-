@@ -2,7 +2,7 @@
 author: BSSV Team
 pubDatetime: 2025-07-11T18:30:00Z
 title: How to Convert a Bangladeshi Driving License to an Austrian License 🚗🇦🇹
-slug: bangladeshi-driving-license-conversion-austria
+slug: bangladeshi-driving-license-conversion-at
 featured: true
 draft: false
 tags:
