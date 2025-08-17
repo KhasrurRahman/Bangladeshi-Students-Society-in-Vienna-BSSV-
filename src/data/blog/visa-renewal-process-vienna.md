@@ -11,6 +11,12 @@ tags:
   - Austria
 description: A complete and easy-to-understand step-by-step guide for Bangladeshi students in Vienna on how to renew their student residence permit. It includes how to book the appointment, what documents are required, the costs involved, and tips on bank statement requirements for working students.
 ---
+## 📅 Appointment Booking  
+
+To renew your student residence permit, you need to **book an appointment with MA35**.  
+➡️ [Click here to book your appointment](https://www.wien.gv.at/kontakte/ma35/terminvereinbarung-aussenstellen.html) and select the correct branch based on your district of residence.
+
+---
 ## 📄 Required Documents  
 
 1. **Application Form (Antrag):**  
