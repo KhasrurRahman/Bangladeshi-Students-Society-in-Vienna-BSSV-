@@ -1,6 +1,6 @@
 ---
 author: BSSV Team
-pubDatetime: 2025-08-22T20:30:00Z
+pubDatetime: 2025-03-06T04:06:31Z
 title: Employment Guide for Non-EU Student Spouses
 slug: employment-non-eu-student-spouses-austria
 featured: true
