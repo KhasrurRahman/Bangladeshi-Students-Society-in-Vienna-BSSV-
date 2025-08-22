@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bangladeshi-students-society-in-vienna-bssv.vercel.app/sitemap-index.xml
+Sitemap: https://bangladeshi-students-society-in-vienna.vercel.app/sitemap-index.xml
