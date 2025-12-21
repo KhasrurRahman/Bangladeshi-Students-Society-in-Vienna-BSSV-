@@ -20,7 +20,8 @@ To renew your student residence permit, you need to **book an appointment with M
 ## 📄 Required Documents  
 
 1. **Application Form (Antrag):**  
-   [Download here](https://drive.google.com/file/d/12sRhKiJ4oliu5kqLjgzn9LgO0KmhzGWV/view?usp=sharing)
+   - ➡️ [German Form (DE)](https://www.bmi.gv.at/312/60a/files/B/029_2025_Antragsformular_B_Aufenthaltstitel_Drittstaatsangehoerige_DE_V20250717_bf.pdf)  
+   - ➡️ [English Form (EN)](https://www.bmi.gv.at/312_EN/60a/files/B/029_2025_Antragsformular_B_Aufenthaltstitel_Drittstaatsangehoerige_EN_V20250717_bf.pdf)
 
 2. **Passport & Photos:**  
    - Original passport and a copy  
