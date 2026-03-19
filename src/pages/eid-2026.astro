@@ -1,0 +1,433 @@
+---
+const siteUrl = "https://bangladeshi-students-society-in-vienna.vercel.app";
+const pageUrl = `${siteUrl}/eid-2026`;
+// /eid-og.png serves a rich SVG image — fully supported by WhatsApp, Facebook, iMessage & Telegram
+const ogImage = `${siteUrl}/eid-og.png`;
+const title   = "Eid Mubarak 2026 🌙 — BSSV 🇧🇩🇦🇹";
+const desc    = "Eid ul Fitr Mubarak from the Bangladeshi Students Society in Vienna! Taqabbal Allaahu minna wa minkum. Wishing you joy, peace & blessings. 🕌✨";
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+
+  <!-- Primary Meta -->
+  <meta name="title"       content={title} />
+  <meta name="description" content={desc}  />
+  <meta name="author"      content="BSSV – Bangladeshi Students Society in Vienna" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Open Graph / WhatsApp -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content={pageUrl} />
+  <meta property="og:title"       content={title}   />
+  <meta property="og:description" content={desc}    />
+  <meta property="og:image"       content={ogImage} />
+  <meta property="og:image:width"  content="1200" />
+  <meta property="og:image:height" content="630"  />
+  <meta property="og:image:type"   content="image/svg+xml" />
+  <meta property="og:site_name"   content="BSSV 🇧🇩🇦🇹" />
+  <meta property="og:locale"      content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:url"         content={pageUrl} />
+  <meta name="twitter:title"       content={title}   />
+  <meta name="twitter:description" content={desc}    />
+  <meta name="twitter:image"       content={ogImage} />
+
+  <!-- WhatsApp extra hints -->
+  <meta property="og:image:alt" content="Eid ul Fitr Mubarak 2026 - BSSV Bangladeshi Students Society in Vienna" />
+
+  <script is:inline src="/toggle-theme.js" async></script>
+
+  <style>
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+    body {
+      width:100vw; min-height:100vh; overflow-x:hidden;
+      font-family:'Segoe UI', sans-serif;
+      background:#0a0a1e;
+    }
+
+    /* ── Dynamic BG Canvas ── */
+    #bg-canvas {
+      position:fixed; inset:0; width:100%; height:100%; z-index:0;
+    }
+
+    /* ── Floating emojis ── */
+    .float-em {
+      position:fixed; font-size:1.8rem; pointer-events:none; user-select:none;
+      animation:floatUp linear infinite; opacity:0; z-index:1;
+    }
+
+    @keyframes floatUp {
+      0%   { transform:translateY(110vh) rotate(0deg);   opacity:0; }
+      10%  { opacity:.7; }
+      90%  { opacity:.4; }
+      100% { transform:translateY(-10vh) rotate(360deg); opacity:0; }
+    }
+
+    /* ── Main screen ── */
+    #main-screen {
+      position:relative; z-index:2;
+      min-height:100vh; display:flex; align-items:center;
+      justify-content:center; padding:2rem; text-align:center;
+    }
+
+    .content {
+      display:flex; flex-direction:column;
+      align-items:center; gap:.65rem; position:relative; z-index:3;
+    }
+
+    /* Moon */
+    .moon-wrap {
+      font-size:5rem; position:relative;
+      animation:floatMoon 3.5s ease-in-out infinite;
+      filter:drop-shadow(0 0 30px rgba(255,215,0,.7));
+    }
+    .star-glow {
+      position:absolute; top:-10px; right:-15px; font-size:1.8rem;
+      animation:sparkle 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes floatMoon {
+      0%,100% { transform:translateY(0) rotate(-5deg); }
+      50%     { transform:translateY(-18px) rotate(5deg); }
+    }
+    @keyframes sparkle {
+      from { opacity:.3; transform:scale(.8); }
+      to   { opacity:1;  transform:scale(1.3); }
+    }
+
+    /* Text */
+    .title {
+      font-size:clamp(2.2rem,7vw,5rem); font-weight:900;
+      color:#FFD700; letter-spacing:2px;
+      animation:titlePulse 3s ease-in-out infinite;
+    }
+    @keyframes titlePulse {
+      0%,100% { text-shadow:0 0 20px rgba(255,215,0,.5); }
+      50%     { text-shadow:0 0 60px rgba(255,215,0,1),0 0 100px rgba(255,150,0,.4); }
+    }
+    .arabic {
+      font-size:clamp(1.3rem,3.5vw,2.2rem); color:#e8c97a;
+      font-family:'Times New Roman',serif;
+      text-shadow:0 0 20px rgba(232,201,122,.5);
+    }
+    .bangla {
+      font-size:clamp(1.2rem,3vw,2rem); color:#88ff99;
+      text-shadow:0 0 20px rgba(136,255,153,.4);
+    }
+    .from { color:#aad4ff; font-size:1.05rem; letter-spacing:1px; }
+
+    /* Button */
+    .celebrate-btn {
+      margin-top:1.5rem; padding:1rem 3rem;
+      font-size:1.4rem; font-weight:800;
+      border:none; border-radius:60px; cursor:pointer; letter-spacing:1px;
+      background:linear-gradient(135deg,#FFD700 0%,#ff8c00 50%,#FFD700 100%);
+      background-size:200% auto; color:#1a0a00;
+      animation:shimmer 2.5s linear infinite, btnPulse 2s ease-in-out infinite;
+      box-shadow:0 0 30px rgba(255,200,0,.5),0 4px 15px rgba(0,0,0,.3);
+      transition:transform .2s;
+    }
+    .celebrate-btn:hover { transform:scale(1.1); box-shadow:0 0 60px rgba(255,200,0,.9); }
+    @keyframes shimmer { to { background-position:200% center; } }
+    @keyframes btnPulse {
+      0%,100% { box-shadow:0 0 20px rgba(255,200,0,.4); }
+      50%     { box-shadow:0 0 60px rgba(255,200,0,.9),0 0 100px rgba(255,150,0,.3); }
+    }
+
+    /* ── Celebration overlay ── */
+    #celebration {
+      position:fixed; inset:0; z-index:100;
+      display:none; align-items:center; justify-content:center;
+      background:rgba(0,0,0,.15); backdrop-filter:blur(2px);
+    }
+    #celebration.active { display:flex; }
+
+    #fw-canvas {
+      position:fixed; inset:0; pointer-events:none; z-index:101;
+    }
+
+    .cel-content {
+      position:relative; z-index:102;
+      display:flex; flex-direction:column; align-items:center;
+      gap:.7rem; text-align:center; padding:2rem; max-width:600px;
+      background:rgba(0,0,0,.55);
+      border:1px solid rgba(255,215,0,.3); border-radius:24px;
+      backdrop-filter:blur(14px);
+      box-shadow:0 0 60px rgba(255,215,0,.15),inset 0 0 40px rgba(255,215,0,.05);
+    }
+
+    .lanterns { display:flex; gap:1.5rem; font-size:2.5rem; }
+    .lanterns span {
+      display:inline-block;
+      animation:swing 2s ease-in-out infinite;
+      filter:drop-shadow(0 0 12px rgba(255,100,0,.8));
+    }
+    .lanterns span:nth-child(2) { animation-delay:.3s; }
+    .lanterns span:nth-child(3) { animation-delay:.6s; }
+    @keyframes swing {
+      0%,100% { transform:rotate(-15deg); }
+      50%     { transform:rotate(15deg); }
+    }
+
+    .big-moon {
+      font-size:4.5rem;
+      animation:bigBounce 1.2s ease-in-out infinite;
+      filter:drop-shadow(0 0 25px rgba(255,215,0,.8));
+    }
+    @keyframes bigBounce {
+      0%,100% { transform:scale(1) translateY(0); }
+      50%     { transform:scale(1.15) translateY(-15px); }
+    }
+
+    .wish {
+      font-size:clamp(2.5rem,8vw,4.5rem); font-weight:900; color:#FFD700;
+      animation:wishGlow 2s ease-in-out infinite alternate;
+    }
+    @keyframes wishGlow {
+      from { text-shadow:0 0 20px rgba(255,215,0,.5); }
+      to   { text-shadow:0 0 80px rgba(255,215,0,1),0 0 120px rgba(255,150,0,.6); }
+    }
+
+    .wish-ar { font-size:1.8rem; color:#e8c97a; font-family:'Times New Roman',serif; }
+    .wish-bn { font-size:1.6rem; color:#88ff99; }
+    .dua     { color:#ccddff; font-size:1rem; }
+    .sub     { color:#aabbcc; font-size:.95rem; line-height:1.6; }
+    .sub strong { color:#FFD700; }
+
+    .parade {
+      font-size:1.8rem; letter-spacing:.3rem;
+      animation:paradeFloat 3s ease-in-out infinite;
+    }
+    @keyframes paradeFloat {
+      0%,100% { transform:translateY(0); }
+      50%     { transform:translateY(-8px); }
+    }
+
+    .back-btn {
+      margin-top:.5rem; padding:.5rem 1.4rem;
+      background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.2);
+      color:#aabbcc; border-radius:30px; cursor:pointer;
+      font-size:.9rem; transition:all .2s;
+    }
+    .back-btn:hover { background:rgba(255,255,255,.18); color:white; }
+  </style>
+</head>
+
+<body>
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- ── MAIN SCREEN ── -->
+  <div id="main-screen">
+    <div class="content">
+      <div class="moon-wrap">
+        🌙<span class="star-glow">✨</span>
+      </div>
+
+      <h1 class="title">Eid ul Fitr 2026</h1>
+      <p class="arabic">عيد الفطر المبارك</p>
+      <p class="bangla">ঈদ মোবারক</p>
+      <p class="from">From BSSV Family 🇧🇩 🇦🇹</p>
+
+      <button class="celebrate-btn" id="celebrate-btn">🎉 Celebrate Eid!</button>
+    </div>
+  </div>
+
+  <!-- ── CELEBRATION OVERLAY ── -->
+  <div id="celebration">
+    <canvas id="fw-canvas"></canvas>
+    <div class="cel-content">
+      <div class="lanterns"><span>🏮</span><span>🏮</span><span>🏮</span></div>
+      <div class="big-moon">🌙</div>
+      <h2 class="wish">Eid Mubarak!</h2>
+      <p class="wish-ar">عيد مبارك</p>
+      <p class="wish-bn">ঈদ মোবারক</p>
+      <p class="dua">Taqabbal Allaahu minna wa minkum 🤲</p>
+      <p class="sub">
+        May this Eid bring you joy, peace &amp; blessings<br/>
+        <strong>— BSSV Family 🇧🇩 🇦🇹</strong>
+      </p>
+      <div class="parade">🌙 ⭐ 🕌 🎊 🌸 🎉 🤲 💚 🌟 🎆</div>
+      <button class="back-btn" id="back-btn">← Back</button>
+    </div>
+  </div>
+
+  <script is:inline>
+    // ── Dynamic Background ──
+    (function () {
+      const canvas = document.getElementById('bg-canvas');
+      const ctx = canvas.getContext('2d');
+      let w, h, t = 0;
+
+      function resize() { w = canvas.width = innerWidth; h = canvas.height = innerHeight; }
+      resize();
+      addEventListener('resize', resize);
+
+      const stars = Array.from({ length: 200 }, () => ({
+        x: Math.random(), y: Math.random(),
+        r: Math.random() * 1.8 + .3,
+        speed: Math.random() * .02 + .005,
+        phase: Math.random() * Math.PI * 2,
+      }));
+
+      function draw() {
+        t += .004;
+        const h1 = 220 + Math.sin(t * .3) * 30;
+        const h2 = 260 + Math.cos(t * .2) * 40;
+        const g = ctx.createLinearGradient(
+          w * (.5 + .5 * Math.sin(t * .4)), 0,
+          w * (.5 + .5 * Math.cos(t * .3)), h
+        );
+        g.addColorStop(0,   `hsl(${h1},70%,7%)`);
+        g.addColorStop(.45, `hsl(${h2},60%,5%)`);
+        g.addColorStop(1,   `hsl(${180 + Math.sin(t*.15)*25},55%,9%)`);
+        ctx.fillStyle = g;
+        ctx.fillRect(0, 0, w, h);
+
+        // Aurora bands
+        for (let i = 0; i < 3; i++) {
+          const ay = h * (.2 + i * .25 + Math.sin(t * .5 + i) * .08);
+          const ag = ctx.createLinearGradient(0, ay - 80, 0, ay + 80);
+          const aHue = 150 + i * 45 + Math.sin(t + i) * 20;
+          ag.addColorStop(0,   `hsla(${aHue},80%,55%,0)`);
+          ag.addColorStop(.5,  `hsla(${aHue},80%,55%,${.05 + .025 * Math.sin(t + i)})`);
+          ag.addColorStop(1,   `hsla(${aHue},80%,55%,0)`);
+          ctx.fillStyle = ag;
+          ctx.fillRect(0, ay - 80, w, 160);
+        }
+
+        // Stars
+        for (const s of stars) {
+          const a = .35 + .65 * Math.abs(Math.sin(t * s.speed * 20 + s.phase));
+          ctx.save();
+          ctx.globalAlpha = a;
+          ctx.fillStyle = '#fff';
+          ctx.shadowColor = '#ffffaa';
+          ctx.shadowBlur = 4;
+          ctx.beginPath();
+          ctx.arc(s.x * w, s.y * h, s.r, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.restore();
+        }
+
+        // Drifting orbs
+        for (let i = 0; i < 4; i++) {
+          const ox = w * ((.2 + .6 * ((i / 4 + t * .05 * (i % 2 ? 1 : -1)) % 1)));
+          const oy = h * (.3 + .4 * Math.sin(t * .3 + i * 1.5));
+          const og2 = ctx.createRadialGradient(ox, oy, 0, ox, oy, 130 + i * 30);
+          const oH = 40 + i * 60 + Math.sin(t * .4 + i) * 20;
+          og2.addColorStop(0, `hsla(${oH},90%,65%,${.07 + .02 * Math.sin(t + i)})`);
+          og2.addColorStop(1, `hsla(${oH},90%,65%,0)`);
+          ctx.fillStyle = og2;
+          ctx.beginPath();
+          ctx.arc(ox, oy, 160 + i * 30, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        requestAnimationFrame(draw);
+      }
+      draw();
+    })();
+
+    // ── Floating emojis ──
+    const eidEmojis = ['🌙','⭐','🕌','🌸','🎊','💚','✨','🌟','🎆','🤲'];
+    function spawnEmoji() {
+      const em = document.createElement('span');
+      em.className = 'float-em';
+      em.textContent = eidEmojis[Math.floor(Math.random() * eidEmojis.length)];
+      em.style.left = Math.random() * 100 + 'vw';
+      em.style.fontSize = (1.2 + Math.random() * 1.5) + 'rem';
+      const dur = 7 + Math.random() * 8;
+      em.style.animationDuration = dur + 's';
+      document.body.appendChild(em);
+      setTimeout(() => em.remove(), dur * 1000);
+    }
+    setInterval(spawnEmoji, 800);
+
+    // ── Fireworks ──
+    let fwTimer = null;
+    const pts = [];
+
+    function initFW() {
+      const canvas = document.getElementById('fw-canvas');
+      const ctx = canvas.getContext('2d');
+      function resize() { canvas.width = innerWidth; canvas.height = innerHeight; }
+      resize();
+      addEventListener('resize', resize);
+
+      const colors = ['#FFD700','#FF6B6B','#4ECDC4','#45B7D1','#96CEB4',
+                      '#FFEAA7','#DDA0DD','#98FB98','#FF8C00','#FF69B4'];
+
+      function burst(x, y) {
+        const n = 65 + Math.floor(Math.random() * 50);
+        for (let i = 0; i < n; i++) {
+          const angle = (Math.PI * 2 / n) * i;
+          const spd = 2 + Math.random() * 7;
+          pts.push({
+            x, y,
+            vx: Math.cos(angle) * spd,
+            vy: Math.sin(angle) * spd,
+            alpha: 1,
+            color: colors[Math.floor(Math.random() * colors.length)],
+            r: 2 + Math.random() * 3,
+            g: .07, fade: .012 + Math.random() * .01,
+          });
+        }
+      }
+
+      (function loop() {
+        ctx.fillStyle = 'rgba(0,0,0,.12)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        for (let i = pts.length - 1; i >= 0; i--) {
+          const p = pts[i];
+          p.x += p.vx; p.y += p.vy; p.vy += p.g; p.vx *= .99; p.alpha -= p.fade;
+          if (p.alpha <= 0) { pts.splice(i, 1); continue; }
+          ctx.save();
+          ctx.globalAlpha = p.alpha;
+          ctx.fillStyle = ctx.shadowColor = p.color;
+          ctx.shadowBlur = 8;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.restore();
+        }
+        requestAnimationFrame(loop);
+      })();
+
+      fwTimer = setInterval(() => {
+        burst(80 + Math.random() * (innerWidth - 160), 40 + Math.random() * (innerHeight * .65));
+      }, 330);
+
+      document.getElementById('celebration').addEventListener('click', e => {
+        if (e.target.closest('.back-btn') || e.target.closest('.cel-content')) return;
+        burst(e.clientX, e.clientY);
+      });
+    }
+
+    function stopFW() {
+      clearInterval(fwTimer); fwTimer = null; pts.length = 0;
+      const c = document.getElementById('fw-canvas');
+      c.getContext('2d').clearRect(0, 0, c.width, c.height);
+    }
+
+    // ── Controls ──
+    document.getElementById('celebrate-btn').addEventListener('click', () => {
+      document.getElementById('celebration').classList.add('active');
+      initFW();
+    });
+
+    document.getElementById('back-btn').addEventListener('click', e => {
+      e.stopPropagation();
+      document.getElementById('celebration').classList.remove('active');
+      stopFW();
+    });
+
+  </script>
+</body>
+</html>

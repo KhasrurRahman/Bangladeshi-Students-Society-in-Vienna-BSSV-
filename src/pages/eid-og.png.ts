@@ -1,0 +1,128 @@
+// Generates a static 1200×630 OG image for the Eid 2026 page
+// Served at /eid-og.png
+
+export async function GET() {
+  // Build an SVG image and return it as PNG-compatible content
+  // (WhatsApp/Open Graph scrapers accept SVG served as image/png via redirect tricks,
+  //  but for maximum compatibility we serve it as SVG with a PNG content-type header workaround.
+  //  The cleanest approach without Satori: serve a rich SVG.)
+
+  const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0a0a2e"/>
+      <stop offset="50%"  stop-color="#0d1a4e"/>
+      <stop offset="100%" stop-color="#0a2030"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#FFD700"/>
+      <stop offset="50%"  stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative stars -->
+  <g fill="white" opacity="0.6">
+    <circle cx="80"  cy="60"  r="2"/><circle cx="150" cy="120" r="1.5"/>
+    <circle cx="220" cy="40"  r="2"/><circle cx="300" cy="90"  r="1"/>
+    <circle cx="420" cy="55"  r="2"/><circle cx="500" cy="30"  r="1.5"/>
+    <circle cx="600" cy="70"  r="1"/><circle cx="700" cy="40"  r="2"/>
+    <circle cx="820" cy="80"  r="1.5"/><circle cx="920" cy="50" r="2"/>
+    <circle cx="1000" cy="100" r="1"/><circle cx="1100" cy="60" r="2"/>
+    <circle cx="1150" cy="140" r="1.5"/><circle cx="50"  cy="200" r="1"/>
+    <circle cx="180" cy="300" r="1.5"/><circle cx="1050" cy="250" r="2"/>
+    <circle cx="1160" cy="400" r="1.5"/><circle cx="30"  cy="400" r="1"/>
+    <circle cx="100" cy="500" r="2"/><circle cx="1100" cy="520" r="1.5"/>
+    <circle cx="950" cy="580" r="1"/><circle cx="250"  cy="560" r="2"/>
+    <circle cx="650" cy="590" r="1.5"/><circle cx="450" cy="580" r="1"/>
+  </g>
+
+  <!-- Aurora glow bands -->
+  <ellipse cx="400" cy="200" rx="350" ry="80" fill="hsla(160,70%,50%,0.07)"/>
+  <ellipse cx="800" cy="400" rx="300" ry="70" fill="hsla(200,70%,55%,0.06)"/>
+  <ellipse cx="600" cy="500" rx="400" ry="60" fill="hsla(270,70%,55%,0.05)"/>
+
+  <!-- Decorative border -->
+  <rect x="20" y="20" width="1160" height="590" rx="20" ry="20"
+        fill="none" stroke="rgba(255,215,0,0.25)" stroke-width="2"/>
+  <rect x="28" y="28" width="1144" height="574" rx="16" ry="16"
+        fill="none" stroke="rgba(255,215,0,0.1)" stroke-width="1"/>
+
+  <!-- Corner ornaments -->
+  <text x="40"  y="75"  font-size="36" fill="rgba(255,215,0,0.4)">✦</text>
+  <text x="1130" y="75"  font-size="36" fill="rgba(255,215,0,0.4)">✦</text>
+  <text x="40"  y="610" font-size="36" fill="rgba(255,215,0,0.4)">✦</text>
+  <text x="1130" y="610" font-size="36" fill="rgba(255,215,0,0.4)">✦</text>
+
+  <!-- Moon emoji -->
+  <text x="600" y="155" font-size="80" text-anchor="middle"
+        filter="url(#softglow)" fill="rgba(255,215,0,0.3)">🌙</text>
+  <text x="600" y="155" font-size="80" text-anchor="middle">🌙</text>
+
+  <!-- Main title -->
+  <text x="600" y="240" font-size="80" font-weight="900" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif"
+        fill="url(#gold)" filter="url(#glow)" letter-spacing="3">
+    Eid Mubarak!
+  </text>
+
+  <!-- Arabic -->
+  <text x="600" y="300" font-size="40" text-anchor="middle"
+        font-family="'Times New Roman', serif" fill="#e8c97a" opacity="0.95">
+    عيد الفطر المبارك
+  </text>
+
+  <!-- Bangla -->
+  <text x="600" y="350" font-size="36" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif" fill="#88ff99" opacity="0.9">
+    ঈদ মোবারক ২০২৬
+  </text>
+
+  <!-- Dua line -->
+  <text x="600" y="410" font-size="26" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif" fill="#aad4ff" opacity="0.85">
+    Taqabbal Allaahu minna wa minkum 🤲
+  </text>
+
+  <!-- Divider -->
+  <line x1="200" y1="440" x2="1000" y2="440"
+        stroke="rgba(255,215,0,0.25)" stroke-width="1"/>
+
+  <!-- Emoji row -->
+  <text x="600" y="500" font-size="36" text-anchor="middle" letter-spacing="8">
+    🌙 ⭐ 🕌 🎊 💚 🎉
+  </text>
+
+  <!-- From BSSV -->
+  <text x="600" y="558" font-size="28" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif" fill="#aad4ff" opacity="0.8">
+    From Bangladeshi Students Society in Vienna 🇧🇩🇦🇹
+  </text>
+
+  <!-- URL -->
+  <text x="600" y="595" font-size="18" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif" fill="rgba(255,255,255,0.3)">
+    bangladeshi-students-society-in-vienna.vercel.app/eid-2026
+  </text>
+</svg>`.trim();
+
+  return new Response(svg, {
+    status: 200,
+    headers: {
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": "public, max-age=86400",
+    },
+  });
+}
