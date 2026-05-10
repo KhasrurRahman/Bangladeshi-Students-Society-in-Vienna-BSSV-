@@ -1,1316 +1,403 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Hr from "@/components/Hr.astro";
+import { SITE } from "@/config";
 
 interface Student {
   name: string;
   university: string;
   department: string;
-  img?: string;
   whatsapp?: string;
-  year?: string;
-  degree?: string;
 }
 
-const defaultImg = "https://cdn-icons-png.flaticon.com/512/149/149071.png";
-
 const students: Student[] = [
-  {
-    name: "KAZI SHAWON",
-    university: "University of Vienna",
-    department: "Computer Science & Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Sourav Saha",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Pranab Sarker",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Sale Musa",
-    university: "University of Vienna",
-    department: "Research in Economics and Finance",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md. Safwan Towshik",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Iftekher Aziz",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "A F M Wasey",
-    university: "BOKU University",
-    department: "Water Management and Environmental Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Rakibul Karim",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Abdul Quaiyum",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Habiba Nasrin",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "MD NISHAT AHMED NOBEL",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Most Tania Karim",
-    university: "BOKU University",
-    department: "Agricultural Sciences",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md. Mehedi Hasan",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "MD FERDOUS BIN MASUD",
-    university: "TU Wien",
-    department: "Information & Communication Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Saif Hasnat Fahad",
-    university: "TU Wien",
-    department: "Information and Communication Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Ataur Rahman Niloy",
-    university: "TU Wien",
-    department: "Computational Science and Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Syeda Anoushka Jafrin Shova",
-    university: "University of Vienna",
-    department: "Molecular Microbiology Microbial Ecology and Immunobiology",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Tasin Rahman Tuser",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md. Noushad Hossain",
-    university: "University of Vienna",
-    department: "Global Change and Sustainability",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Rasel Ahmed",
-    university: "TU Wien",
-    department: "Computer Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Sazeda Akter Rimi",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Faisal Khan",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Tanvir Ahmed",
-    university: "TU Wien",
-    department: "Interdisciplinary Mathematics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Mohammad Faisal",
-    university: "JKU Linz",
-    department: "Artificial Intelligence",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "MAHADI HASSAN SHOVA",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md. Omar Faruque",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md. Omar Khaium",
-    university: "TU Wien",
-    department: "Media and Human Centered Computing",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Archi Alam Shefa",
-    university: "TU Wien",
-    department: "Biomedical Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Kamrul Hassan Sajib",
-    university: "TU Wien",
-    department: "Manufacturing and Robotics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Khursida Akter",
-    university: "WU Vienna",
-    department: "Supply Chain Management",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Golam Rasul",
-    university: "TU Wien",
-    department: "Embedded Computer System",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md. Abbas Uddin Munna",
-    university: "TU Wien",
-    department: "Information and Communication Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Razib Hasan",
-    university: "TU Wien",
-    department: "Software Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Zahir Ahmed Khan",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Shazid Rahman",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Ruhit",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Golam Kawsar",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Mahabub Mia (Dipu)",
-    university: "BOKU University",
-    department: "Horticultural Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "MD IBRAHIM KHALIL",
-    university: "TU Wien",
-    department: "Media & Human-Centered Computing",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "MD ZAHANGIR ALAM",
-    university: "TU Wien",
-    department: "Information Communication Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Sheikh Md Mustainur Rahman",
-    university: "Modul University Vienna",
-    department: "Management",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Sumaya Akter",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Ahamad Ar Rafi Thakur",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Muhammad Raisul Hasan",
-    university: "TU Graz & University of Graz",
-    department: "Computational Social Systems",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Rasel Sarker",
-    university: "WU Vienna",
-    department: "Supply Chain Management",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Sumon Biswas",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Mohammad Jubayer",
-    university: "TU Wien",
-    department: "Software Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Atikur Rahman",
-    university: "TU Wien",
-    department: "Manufacturing & Robotics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "MD OLIULLAH",
-    university: "BOKU University",
-    department: "Horticulture",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Kazi Roni",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "MD AKRAM HOSSAIN",
-    university: "University of Vienna",
-    department: "Computational Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Huzaifa Abdulla Al Azad",
-    university: "TU Wien",
-    department: "Computational Science & Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Uzzal Roy",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Nadim Sheikh",
-    university: "University of Vienna",
-    department: "Geography: Global Change and Sustainability",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Sakib Ahmed",
-    university: "TU Wien",
-    department: "Biomedical Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Shahinur Akter",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Ahmed Hossain Saad",
-    university: "WU Vienna",
-    department: "Marketing",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Arnob Saha",
-    university: "TU Wien",
-    department: "Information and Communication Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Fahim Uddin",
-    university: "TU Wien",
-    department: "Information and Communication Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Jisan Ahamed Sharkar",
-    university: "TU Wien",
-    department: "Information & Communication Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "MD IBRAHIM KHOLIL",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Muhammed Shahnewaz Bhuiyan",
-    university: "TU Wien",
-    department: "Manufacturing And Robotics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Juhair Anjum Jarif",
-    university: "Modul University Vienna",
-    department: "Tourism and Hospitality Management",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Mst Kaniz Fatima",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Abdul Kayum",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Samiul Islam",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Risat Hossain",
-    university: "TU Wien",
-    department: "Interdisciplinary Mathematics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Jannatul Jahan Bonny",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Atikul Islam Khan",
-    university: "University of Vienna",
-    department: "Mathematics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Abu Nafee Ibna Zahid",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Barnali Adhikari",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Fakir Rasel Ahmed",
-    university: "University of Vienna",
-    department: "Global Change and Sustainability",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Tanvirul Alam",
-    university: "TU Wien",
-    department: "Manufacturing & Robotics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Afrin Ashrafi",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "NUSRAT JAHAN HIRA",
-    university: "University of Vienna",
-    department: "Applied Economics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Abdullahil Baki",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Sonju Debnath",
-    university: "University of Vienna",
-    department: "Environmental Systems Process Pollution Solutions",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Easin Uddin",
-    university: "BOKU University",
-    department: "Green Building Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Hebron Hossain Hamim",
-    university: "TU Wien",
-    department: "Software Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "S M Shahriyar",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Mojahidul Islam",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Refayat Hossain",
-    university: "TU Wien",
-    department: "Manufacturing and Robotics",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Morshed alam",
-    university: "TU Wien",
-    department: "Biomedical Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Nayma Alam",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Shahidul Islam Mozumder",
-    university: "TU Wien",
-    department: "Computational Science and Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "MD Ahsanul Karim Likhan",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Mahfuz",
-    university: "TU Graz",
-    department: "CSS",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Jannatul Juice",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md. Hasan Habib",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "B M Sarfuzzaman Razib",
-    university: "FH JOANNEUM Graz",
-    department: "Global Strategic Management",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Yeakub Ali",
-    university: "TU Wien",
-    department: "Computer Science",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Md Abdur Rahman",
-    university: "University of Vienna",
-    department: "Molecular Biology",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "Sonju Debnath",
-    university: "University of Vienna",
-    department: "Environmental Systems Process Pollution Solutions",
-    whatsapp: "+436603412494",
-    degree: "Master's"
-  },
-  {
-    name: "Easin Uddin",
-    university: "BOKU University",
-    department: "Green Building Engineering",
-    whatsapp: "+4367762072923",
-    degree: "Master's"
-  },
-  {
-    name: "Hebron Hossain Hamim",
-    university: "TU Wien",
-    department: "Software Engineering",
-    whatsapp: "+4368864352759",
-    degree: "Master's"
-  },
-  {
-    name: "S M Shahriyar",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "+4367763465417",
-    degree: "Master's"
-  },
-  {
-    name: "Md Mojahidul Islam",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "+4367763065690",
-    degree: "Master's"
-  },
-  {
-    name: "Md Refayat Hossain",
-    university: "TU Wien",
-    department: "Manufacturing and Robotics",
-    whatsapp: "+436776207918",
-    degree: "Master's"
-  },
-  {
-    name: "Md Morshed Alam",
-    university: "TU Wien",
-    department: "Biomedical Engineering",
-    whatsapp: "+436604005476",
-    degree: "Master's"
-  },
-  {
-    name: "Nayma Alam",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "+4367764462097",
-    degree: "Master's"
-  },
-  {
-    name: "Md Shahidul Islam Mozumder",
-    university: "TU Wien",
-    department: "Computational Science and Engineering",
-    whatsapp: "For contact number look at the WhatsApp group",
-    degree: "Master's"
-  },
-  {
-    name: "MD Ahsanul Karim Likhan",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "+4368181102801",
-    degree: "Master's"
-  },
-  {
-    name: "Mahfuz",
-    university: "TU Graz",
-    department: "Computational Social Systems",
-    whatsapp: "+4368120788499",
-    degree: "Master's"
-  },
-  {
-    name: "Jannatul Juice",
-    university: "University of Vienna",
-    department: "Computer Science",
-    whatsapp: "+436764299712",
-    degree: "Master's"
-  },
-  {
-    name: "Md. Hasan Habib",
-    university: "TU Wien",
-    department: "Data Science",
-    whatsapp: "+4368864302092",
-    degree: "Master's"
-  },
-  {
-    name: "B M Sarfuzzaman Razib",
-    university: "FH JOANNEUM Graz",
-    department: "Global Strategic Management",
-    whatsapp: "+436604285553",
-    degree: "Master's"
-  },
-  {
-    name: "Yeakub Ali",
-    university: "TU Wien",
-    department: "Computer Science",
-    whatsapp: "+4369010195282",
-    degree: "Master's"
-  },
-  {
-    name: "Shithi Dev",
-    university: "TU Wien",
-    department: "Biomedical Engineering",
-    whatsapp: "+4368181194226",
-    degree: "Master's"
-  },
-  {
-    name: "Zinnurain",
-    university: "University of Innsbruck",
-    department: "Software Engineering",
-    whatsapp: "+4367762936179",
-    degree: "Master's"
-  },
-  {
-    name: "Dale Asa Roy",
-    university: "University of Vienna",
-    department: "Communication Science",
-    whatsapp: "+436605992696",
-    degree: "Master's"
-  },
-  {
-    name: "Rima Dey",
-    university: "University of Vienna",
-    department: "Computational Science",
-    whatsapp: "+4368120446425",
-    degree: "Master's"
-  },
-  {
-    name: "Pias Roy",
-    university: "BOKU University",
-    department: "Sustainable Agriculture",
-    whatsapp: "+4368181427743",
-    degree: "Master's"
-  }
+  { name: "KAZI SHAWON", university: "University of Vienna", department: "Computer Science & Engineering" },
+  { name: "Sourav Saha", university: "University of Vienna", department: "Computer Science" },
+  { name: "Pranab Sarker", university: "University of Vienna", department: "Computer Science" },
+  { name: "Sale Musa", university: "University of Vienna", department: "Research in Economics and Finance" },
+  { name: "Md. Safwan Towshik", university: "University of Vienna", department: "Computer Science" },
+  { name: "Iftekher Aziz", university: "University of Vienna", department: "Computer Science" },
+  { name: "Md Rakibul Karim", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Habiba Nasrin", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Md. Mehedi Hasan", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Syeda Anoushka Jafrin Shova", university: "University of Vienna", department: "Molecular Microbiology, Microbial Ecology and Immunobiology" },
+  { name: "Md Tasin Rahman Tuser", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Md. Noushad Hossain", university: "University of Vienna", department: "Global Change and Sustainability" },
+  { name: "Sazeda Akter Rimi", university: "University of Vienna", department: "Computer Science" },
+  { name: "Md Faisal Khan", university: "University of Vienna", department: "Applied Economics" },
+  { name: "MAHADI HASSAN SHOVA", university: "University of Vienna", department: "Computer Science" },
+  { name: "Md. Omar Faruque", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Zahir Ahmed Khan", university: "University of Vienna", department: "Applied Economics", whatsapp: "+4368110491305" },
+  { name: "Md Shazid Rahman", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Ruhit", university: "University of Vienna", department: "Computer Science" },
+  { name: "Golam Kawsar", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Sumaya Akter", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Ahamad Ar Rafi Thakur", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Sumon Biswas", university: "University of Vienna", department: "Computer Science" },
+  { name: "Kazi Roni", university: "University of Vienna", department: "Applied Economics" },
+  { name: "MD AKRAM HOSSAIN", university: "University of Vienna", department: "Computational Science" },
+  { name: "Uzzal Roy", university: "University of Vienna", department: "Computer Science" },
+  { name: "Md Nadim Sheikh", university: "University of Vienna", department: "Geography: Global Change and Sustainability" },
+  { name: "Shahinur Akter", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Md Samiul Islam", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Atikul Islam Khan", university: "University of Vienna", department: "Mathematics" },
+  { name: "Barnali Adhikari", university: "University of Vienna", department: "Computer Science" },
+  { name: "Fakir Rasel Ahmed", university: "University of Vienna", department: "Global Change and Sustainability" },
+  { name: "Afrin Ashrafi", university: "University of Vienna", department: "Applied Economics" },
+  { name: "Md Abdur Rahman", university: "University of Vienna", department: "Molecular Biology" },
+  { name: "Sonju Debnath", university: "University of Vienna", department: "Environmental Systems Process Pollution Solutions", whatsapp: "+436603412494" },
+  { name: "Jannatul Juice", university: "University of Vienna", department: "Computer Science", whatsapp: "+436764299712" },
+  { name: "Dale Asa Roy", university: "University of Vienna", department: "Communication Science", whatsapp: "+436605992696" },
+  { name: "Rima Dey", university: "University of Vienna", department: "Computational Science", whatsapp: "+4368120446425" },
+  { name: "Munna", university: "University of Vienna", department: "Applied Economics", whatsapp: "+436503364792" },
+  { name: "Kaushik Ahmed Rafin", university: "University of Vienna", department: "MS Applied Economics", whatsapp: "1875838339" },
+  { name: "Md Ali Haidar", university: "University of Vienna", department: "MA Molecular Biology", whatsapp: "+436765392677" },
+  { name: "Md. Abdur Rahman", university: "University of Vienna", department: "Molecular Biology" },
+
+  { name: "Md Abdul Quaiyum", university: "TU Wien", department: "Data Science" },
+  { name: "MD NISHAT AHMED NOBEL", university: "TU Wien", department: "Data Science" },
+  { name: "MD FERDOUS BIN MASUD", university: "TU Wien", department: "Information & Communication Engineering" },
+  { name: "Saif Hasnat Fahad", university: "TU Wien", department: "Information and Communication Engineering" },
+  { name: "Ataur Rahman Niloy", university: "TU Wien", department: "Computational Science and Engineering" },
+  { name: "Rasel Ahmed", university: "TU Wien", department: "Computer Engineering" },
+  { name: "Tanvir Ahmed", university: "TU Wien", department: "Interdisciplinary Mathematics" },
+  { name: "Md. Omar Khaium", university: "TU Wien", department: "Media and Human Centered Computing" },
+  { name: "Archi Alam Shefa", university: "TU Wien", department: "Biomedical Engineering" },
+  { name: "Kamrul Hassan Sajib", university: "TU Wien", department: "Manufacturing and Robotics" },
+  { name: "Golam Rasul", university: "TU Wien", department: "Embedded Computer System" },
+  { name: "Md. Abbas Uddin Munna", university: "TU Wien", department: "Information and Communication Engineering" },
+  { name: "Razib Hasan", university: "TU Wien", department: "Software Engineering" },
+  { name: "MD IBRAHIM KHALIL", university: "TU Wien", department: "Media & Human-Centered Computing" },
+  { name: "MD ZAHANGIR ALAM", university: "TU Wien", department: "Information Communication Engineering" },
+  { name: "Mohammad Jubayer", university: "TU Wien", department: "Software Engineering" },
+  { name: "Md Atikur Rahman", university: "TU Wien", department: "Manufacturing & Robotics" },
+  { name: "Huzaifa Abdulla Al Azad", university: "TU Wien", department: "Computational Science & Engineering" },
+  { name: "Md Sakib Ahmed", university: "TU Wien", department: "Biomedical Engineering" },
+  { name: "Arnob Saha", university: "TU Wien", department: "Information and Communication Engineering" },
+  { name: "Md Fahim Uddin", university: "TU Wien", department: "Information and Communication Engineering" },
+  { name: "Jisan Ahamed Sharkar", university: "TU Wien", department: "Information & Communication Engineering" },
+  { name: "MD IBRAHIM KHOLIL", university: "TU Wien", department: "Data Science" },
+  { name: "Muhammed Shahnewaz Bhuiyan", university: "TU Wien", department: "Manufacturing And Robotics" },
+  { name: "Mst Kaniz Fatima", university: "TU Wien", department: "Data Science" },
+  { name: "Md Abdul Kayum", university: "TU Wien", department: "Data Science" },
+  { name: "Risat Hossain", university: "TU Wien", department: "Interdisciplinary Mathematics" },
+  { name: "Jannatul Jahan Bonny", university: "TU Wien", department: "Data Science" },
+  { name: "Md Abu Nafee Ibna Zahid", university: "TU Wien", department: "Data Science" },
+  { name: "Tanvirul Alam", university: "TU Wien", department: "Manufacturing & Robotics" },
+  { name: "Abdullahil Baki", university: "TU Wien", department: "Data Science" },
+  { name: "Hebron Hossain Hamim", university: "TU Wien", department: "Software Engineering", whatsapp: "+4368864352759" },
+  { name: "S M Shahriyar", university: "TU Wien", department: "Data Science", whatsapp: "+4367763465417" },
+  { name: "Md Mojahidul Islam", university: "TU Wien", department: "Data Science", whatsapp: "+4367763065690" },
+  { name: "Md Refayat Hossain", university: "TU Wien", department: "Manufacturing and Robotics", whatsapp: "+4367762079184" },
+  { name: "Md Morshed Alam", university: "TU Wien", department: "Biomedical Engineering", whatsapp: "+436604005476" },
+  { name: "Nayma Alam", university: "TU Wien", department: "Data Science", whatsapp: "+4367764462097" },
+  { name: "Md Shahidul Islam Mozumder", university: "TU Wien", department: "Computational Science and Engineering", whatsapp: "01689339066" },
+  { name: "MD Ahsanul Karim Likhan", university: "TU Wien", department: "Data Science", whatsapp: "+4368181102801" },
+  { name: "Md. Hasan Habib", university: "TU Wien", department: "Data Science", whatsapp: "+4368864302092" },
+  { name: "Yeakub Ali", university: "TU Wien", department: "Computer Science", whatsapp: "+4369010195282" },
+  { name: "Shithi Dev", university: "TU Wien", department: "Biomedical Engineering", whatsapp: "+4368181194226" },
+  { name: "Ruman Faraji", university: "TU Wien", department: "Biomedical Engineering", whatsapp: "+4368120760204" },
+  { name: "Arif Al Mas Barid", university: "TU Wien", department: "Technical Chemistry", whatsapp: "+4367762089794" },
+  { name: "Sumon Paul", university: "TU Wien", department: "Manufacturing and Robotics", whatsapp: "+4368120204734" },
+  { name: "MD Ashik Mahmud", university: "TU Wien", department: "Data Science", whatsapp: "+436765108081" },
+  { name: "Aniruddho Saha", university: "TU Wien", department: "Data Science", whatsapp: "+4367764723715" },
+  { name: "Neaz Morshed", university: "TU Wien", department: "Software Engineering", whatsapp: "+4368110377994" },
+  { name: "Raihanul Islam", university: "TU Wien", department: "Information and Communication Engineering", whatsapp: "+4367764119708" },
+  { name: "Mahmuda Akter Lubna", university: "TU Wien", department: "Software Engineering", whatsapp: "0665 67172497" },
+  { name: "Md Shahan Islam Nova", university: "TU Wien", department: "Software Engineering", whatsapp: "01798625518" },
+
+  { name: "A F M Wasey", university: "BOKU University", department: "Water Management and Environmental Engineering" },
+  { name: "Most Tania Karim", university: "BOKU University", department: "Agricultural Sciences" },
+  { name: "Mahabub Mia (Dipu)", university: "BOKU University", department: "Horticultural Science" },
+  { name: "MD OLIULLAH", university: "BOKU University", department: "Horticulture" },
+  { name: "Easin Uddin", university: "BOKU University", department: "Green Building Engineering", whatsapp: "+4367762072923" },
+  { name: "Pias Roy", university: "BOKU University", department: "Sustainable Agriculture", whatsapp: "+4368181427743" },
+  { name: "Md Mizanor Rahman Nayeem", university: "BOKU University", department: "MSc in Horticultural Sciences", whatsapp: "+43665 67052551" },
+  { name: "Md Samsujjoha Nissan", university: "BOKU University", department: "Masters in Green Building Engineering", whatsapp: "+43678 7926397" },
+
+  { name: "Khursida Akter", university: "WU Vienna", department: "Supply Chain Management" },
+  { name: "Md Rasel Sarker", university: "WU Vienna", department: "Supply Chain Management" },
+  { name: "Ahmed Hossain Saad", university: "WU Vienna", department: "Marketing" },
+
+  { name: "Muhammad Raisul Hasan", university: "TU Graz", department: "Computational Social Systems" },
+  { name: "Mahfuz", university: "TU Graz", department: "Computational Social Systems", whatsapp: "+4368120788499" },
+  { name: "Walidur Rahman Anik", university: "TU Graz", department: "Computational Social System (CSS)", whatsapp: "+4368110434418" },
+
+  { name: "Sheikh Md Mustainur Rahman", university: "Modul University Vienna", department: "Management" },
+  { name: "Juhair Anjum Jarif", university: "Modul University Vienna", department: "Tourism and Hospitality Management" },
+
+  { name: "Mohammad Faisal", university: "JKU Linz", department: "Artificial Intelligence" },
+  { name: "Rejaul Karim", university: "Johannes Kepler University", department: "Artificial Intelligence", whatsapp: "06606703579" },
+
+  { name: "B M Sarfuzzaman Razib", university: "FH JOANNEUM Graz", department: "Global Strategic Management", whatsapp: "+436604285553" },
+
+  { name: "Zinnurain", university: "University of Innsbruck", department: "Software Engineering", whatsapp: "+4367762936179" },
+
+  { name: "NUSRAT JAHAN HIRA", university: "Fachhochschule Wiener Neustadt", department: "MedTech – Functional Imaging", whatsapp: "+4368184592886" },
+
+  { name: "Ariful Islam", university: "ITM College Bad Voslau", department: "Hotel Management", whatsapp: "+4368120447638" },
+
+  { name: "Bristy Akter", university: "University of Graz", department: "Biology", whatsapp: "+4367761951700" },
 ];
 
-// Group students by university
-const studentsByUniversity = students.reduce((acc, student) => {
-  if (!acc[student.university]) {
-    acc[student.university] = [];
-  }
-  acc[student.university].push(student);
+const studentsByUniversity = students.reduce((acc, s) => {
+  if (!acc[s.university]) acc[s.university] = [];
+  acc[s.university].push(s);
   return acc;
 }, {} as Record<string, Student[]>);
 
+const sortedUniversities = Object.keys(studentsByUniversity).sort(
+  (a, b) => studentsByUniversity[b].length - studentsByUniversity[a].length
+);
+
 const totalStudents = students.length;
-const universities = Object.keys(studentsByUniversity);
+const totalWithContact = students.filter(s => s.whatsapp).length;
+const totalUniversities = sortedUniversities.length;
+const totalDepts = new Set(students.map(s => s.department)).size;
+
+function initials(name: string) {
+  return name
+    .split(" ")
+    .filter(Boolean)
+    .slice(0, 2)
+    .map(w => w[0].toUpperCase())
+    .join("");
+}
 ---
 
-<Layout title="Student Data - BSSV">
-  <main class="container">
-    <header class="page-header">
-      <h1>🎓 BSSV Student Directory</h1>
-      <p class="subtitle">
-        Meet our {totalStudents} talented Bangladeshi students studying across {universities.length} universities in Vienna
+<Layout title={`Student Directory | ${SITE.title}`}>
+  <Header />
+  <main id="main-content" class="mx-auto w-full max-w-5xl px-4 pb-16 pt-4">
+
+    <!-- Page title -->
+    <div class="mb-8 border-b border-border pb-6">
+      <h1 class="text-3xl font-bold sm:text-4xl">
+        🎓 Student Directory
+      </h1>
+      <p class="mt-2 italic text-foreground/60">
+        A directory of Bangladeshi students studying across Austria — part of the
+        <span class="text-accent not-italic font-medium">BSSV</span> community.
       </p>
-    </header>
+    </div>
 
-    <div class="stats-section">
-      <div class="stat-card">
-        <div class="stat-number">{totalStudents}</div>
-        <div class="stat-label">Total Students</div>
+    <!-- Stats row -->
+    <div class="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <div class="rounded border border-border bg-muted/40 px-4 py-3 text-center">
+        <div class="text-2xl font-bold text-accent">{totalStudents}</div>
+        <div class="mt-0.5 text-xs uppercase tracking-widest text-foreground/50">Members</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-number">{universities.length}</div>
-        <div class="stat-label">Universities</div>
+      <div class="rounded border border-border bg-muted/40 px-4 py-3 text-center">
+        <div class="text-2xl font-bold text-accent">{totalUniversities}</div>
+        <div class="mt-0.5 text-xs uppercase tracking-widest text-foreground/50">Universities</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-number">{new Set(students.map(s => s.department)).size}</div>
-        <div class="stat-label">Departments</div>
+      <div class="rounded border border-border bg-muted/40 px-4 py-3 text-center">
+        <div class="text-2xl font-bold text-accent">{totalDepts}</div>
+        <div class="mt-0.5 text-xs uppercase tracking-widest text-foreground/50">Departments</div>
+      </div>
+      <div class="rounded border border-border bg-muted/40 px-4 py-3 text-center">
+        <div class="text-2xl font-bold text-accent">{totalWithContact}</div>
+        <div class="mt-0.5 text-xs uppercase tracking-widest text-foreground/50">With Contact</div>
       </div>
     </div>
 
-    <div class="search-section">
-      <div class="search-container">
-        <input 
-          type="text" 
-          id="searchInput" 
-          placeholder="Search by name, university, or department..." 
-          class="search-input"
+    <!-- Search -->
+    <div class="relative mb-4">
+      <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-foreground/40">
+        &#128269;
+      </span>
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Search name, university, or department…"
+        autocomplete="off"
+        class="w-full rounded border border-border bg-background py-2.5 pl-9 pr-4 text-sm text-foreground placeholder-foreground/40 outline-none transition focus:border-accent focus:ring-1 focus:ring-accent"
+      />
+    </div>
+
+    <!-- Live count -->
+    <p id="liveCount" class="mb-4 text-xs text-foreground/50 italic"></p>
+
+    <!-- University filter tabs -->
+    <div id="filterWrap" class="mb-6 flex flex-wrap gap-2">
+      <button
+        class="filter-btn active-filter rounded border border-accent bg-accent px-3 py-1 text-xs font-medium text-background transition"
+        data-uni="all"
+      >All universities</button>
+      {sortedUniversities.map(uni => (
+        <button
+          class="filter-btn rounded border border-border px-3 py-1 text-xs font-medium text-foreground/60 transition hover:border-accent hover:text-accent"
+          data-uni={uni}
         >
-        <div class="filter-buttons">
-          <button class="filter-btn active" data-university="all">All Universities</button>
-          {universities.map(uni => (
-            <button class="filter-btn" data-university={uni}>{uni.replace('University of ', '').replace('TU Wien', 'TU Wien')}</button>
-          ))}
-        </div>
-      </div>
-    </div>
-
-    <div class="students-section">
-      {Object.entries(studentsByUniversity).map(([university, universityStudents]) => (
-        <div class="university-group" data-university={university}>
-          <h2 class="university-title">
-            🏛️ {university} 
-            <span class="student-count">({universityStudents.length} students)</span>
-          </h2>
-          <div class="student-grid">
-            {universityStudents.map((student) => (
-              <div class="student-card" 
-                   data-name={student.name.toLowerCase()} 
-                   data-university={university} 
-                   data-department={student.department.toLowerCase()}
-                   data-whatsapp={student.whatsapp || ''}>
-                <div class="student-image-container">
-                  <img 
-                    src={defaultImg} 
-                    alt={student.name}
-                    loading="lazy"
-                  />
-                  <div class="student-overlay">
-                    <span class="degree-badge">{student.degree || 'Student'}</span>
-                  </div>
-                </div>
-                <div class="student-info">
-                  <h3 class="student-name">{student.name}</h3>
-                  <p class="student-detail">
-                    <span class="icon">🏫</span>
-                    <span class="text">{student.university}</span>
-                  </p>
-                  <p class="student-detail">
-                    <span class="icon">📚</span>
-                    <span class="text">{student.department}</span>
-                  </p>
-                  {student.whatsapp && (
-                    <p class="student-detail whatsapp-detail">
-                      <span class="icon">📱</span>
-                      <span class="whatsapp-text">{student.whatsapp}</span>
-                    </p>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+          {uni}
+          <span class="ml-1 opacity-60">({studentsByUniversity[uni].length})</span>
+        </button>
       ))}
     </div>
 
-    <div id="noResults" class="no-results" style="display: none;">
-      <div class="no-results-content">
-        <h3>🔍 No students found</h3>
-        <p>Try adjusting your search criteria or filters.</p>
-      </div>
+    <Hr />
+
+    <!-- Student groups -->
+    <div id="studentContainer">
+      {sortedUniversities.map(university => {
+        const group = studentsByUniversity[university];
+        return (
+          <section
+            class="university-section mt-10"
+            data-university={university.toLowerCase()}
+          >
+            <h2 class="mb-1 flex items-baseline gap-3 text-xl font-semibold">
+              <span class="text-accent">{university}</span>
+              <span class="text-sm font-normal text-foreground/40">
+                {group.length} student{group.length !== 1 ? "s" : ""}
+              </span>
+            </h2>
+            <Hr />
+            <ul class="divide-y divide-border" role="list">
+              {group.map(student => (
+                <li
+                  class="student-row flex items-center gap-3 py-3 transition-colors hover:bg-muted/30"
+                  data-name={student.name.toLowerCase()}
+                  data-university={university.toLowerCase()}
+                  data-department={student.department.toLowerCase()}
+                >
+                  <!-- Initials avatar -->
+                  <div
+                    class="avatar-circle flex-shrink-0"
+                    aria-hidden="true"
+                  >
+                    {initials(student.name)}
+                  </div>
+
+                  <!-- Info -->
+                  <div class="min-w-0 flex-1">
+                    <span class="block truncate font-medium leading-snug text-foreground">
+                      {student.name}
+                    </span>
+                    <span class="block truncate text-xs text-foreground/50 leading-snug mt-0.5">
+                      {student.department}
+                    </span>
+                  </div>
+
+                  <!-- Contact badge -->
+                  {student.whatsapp && (
+                    <span class="flex-shrink-0 inline-flex items-center gap-1 rounded border border-border bg-muted/40 px-2 py-0.5 text-xs text-foreground/60">
+                      <span class="text-[10px]">📱</span>
+                      <span class="hidden sm:inline">In WhatsApp group</span>
+                    </span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })}
     </div>
+
+    <!-- No results -->
+    <div id="noResults" class="hidden py-20 text-center">
+      <p class="text-4xl">🔍</p>
+      <p class="mt-4 text-lg font-medium">No students found</p>
+      <p class="mt-1 text-sm text-foreground/50">Try a different search term or filter.</p>
+    </div>
+
   </main>
+  <Footer />
 </Layout>
 
 <style>
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    min-height: calc(100vh - 200px);
-  }
-
-  .page-header {
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-
-  .page-header h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 1rem;
-  }
-
-  .subtitle {
-    font-size: 1.2rem;
-    color: #64748b;
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 1.6;
-  }
-
-  .stats-section {
+  .avatar-circle {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    background-color: var(--color-muted);
+    color: var(--color-accent);
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 2rem;
-    margin-bottom: 3rem;
-    flex-wrap: wrap;
-  }
-
-  .stat-card {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-    border: 2px solid #38bdf8;
-    border-radius: 16px;
-    padding: 1.5rem 2rem;
-    text-align: center;
-    min-width: 120px;
-    box-shadow: 0 8px 32px rgba(56, 189, 248, 0.1);
-  }
-
-  .stat-number {
-    font-size: 2.5rem;
+    font-size: 0.7rem;
     font-weight: 700;
-    color: #38bdf8;
-    margin-bottom: 0.5rem;
+    letter-spacing: 0.03em;
+    border: 1px solid var(--color-border);
+    user-select: none;
   }
 
-  .stat-label {
-    font-size: 0.9rem;
-    color: #94a3b8;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+  .student-row {
+    border-radius: 0.375rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
-  .search-section {
-    margin-bottom: 3rem;
-  }
-
-  .search-container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .search-input {
-    width: 100%;
-    padding: 1rem 1.5rem;
-    font-size: 1.1rem;
-    border: 2px solid #334155;
-    border-radius: 12px;
-    background: #1e293b;
-    color: #f1f5f9;
-    margin-bottom: 1.5rem;
-    transition: all 0.3s ease;
-  }
-
-  .search-input:focus {
-    outline: none;
-    border-color: #38bdf8;
-    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.1);
-  }
-
-  .filter-buttons {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    justify-content: center;
+  .active-filter {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-background);
   }
 
   .filter-btn {
-    padding: 0.75rem 1.5rem;
-    border: 2px solid #334155;
-    border-radius: 25px;
-    background: #1e293b;
-    color: #94a3b8;
     cursor: pointer;
-    transition: all 0.3s ease;
-    font-size: 0.9rem;
-    font-weight: 500;
-  }
-
-  .filter-btn:hover, .filter-btn.active {
-    border-color: #38bdf8;
-    background: rgba(56, 189, 248, 0.1);
-    color: #38bdf8;
-  }
-
-  .university-group {
-    margin-bottom: 4rem;
-  }
-
-  .university-title {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #f1f5f9;
-    margin-bottom: 2rem;
-    text-align: center;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #334155;
-  }
-
-  .student-count {
-    font-size: 1rem;
-    color: #38bdf8;
-    font-weight: 400;
-  }
-
-  .student-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    padding: 0 1rem;
-  }
-
-  @media (min-width: 1200px) {
-    .student-grid {
-      grid-template-columns: repeat(4, 1fr);
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-  }
-
-  .student-card {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-    border: 2px solid #334155;
-    border-radius: 16px;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  }
-
-  .student-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    border-color: #38bdf8;
-    box-shadow: 0 12px 32px rgba(56, 189, 248, 0.2);
-  }
-
-  .student-image-container {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-  }
-
-  .student-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-  }
-
-  .student-card:hover img {
-    transform: scale(1.1);
-  }
-
-  .student-overlay {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-  }
-
-  .degree-badge {
-    background: rgba(56, 189, 248, 0.9);
-    color: white;
-    padding: 0.4rem 0.8rem;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    backdrop-filter: blur(4px);
-  }
-
-  .student-info {
-    padding: 1.5rem;
-  }
-
-  .student-name {
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #f1f5f9;
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-
-  .student-detail {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 0.8rem;
-    font-size: 0.95rem;
-    line-height: 1.5;
-  }
-
-  .student-detail .icon {
-    margin-right: 0.8rem;
-    font-size: 1.1rem;
-    flex-shrink: 0;
-    margin-top: 0.1rem;
-  }
-
-  .student-detail .text {
-    color: #cbd5e1;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-  }
-
-  .whatsapp-text {
-    color: #22c55e;
-    font-weight: 500;
-    font-size: 0.85rem;
-    padding: 0.2rem 0.6rem;
-    border-radius: 12px;
-    display: inline-block;
-    background: rgba(34, 197, 94, 0.1);
-  }
-
-  .whatsapp-detail {
-    background: rgba(34, 197, 94, 0.05);
-    border-radius: 8px;
-    padding: 0.5rem;
-    margin: 0.5rem -0.5rem;
-  }
-
-  .no-results {
-    text-align: center;
-    padding: 4rem 2rem;
-  }
-
-  .no-results-content h3 {
-    font-size: 1.5rem;
-    color: #64748b;
-    margin-bottom: 1rem;
-  }
-
-  .no-results-content p {
-    color: #94a3b8;
-    font-size: 1.1rem;
-  }
-
-  @media (min-width: 900px) and (max-width: 1199px) {
-    .student-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  @media (max-width: 899px) {
-    .student-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1.25rem;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .container {
-      padding: 1rem 0.5rem;
-    }
-
-    .page-header h1 {
-      font-size: 2.5rem;
-    }
-
-    .stats-section {
-      gap: 1rem;
-    }
-
-    .stat-card {
-      padding: 1rem 1.5rem;
-      min-width: 100px;
-    }
-
-    .stat-number {
-      font-size: 2rem;
-    }
-
-    .student-grid {
-      padding: 0;
-    }
-
-    .filter-buttons {
-      gap: 0.25rem;
-    }
-
-    .filter-btn {
-      padding: 0.6rem 1rem;
-      font-size: 0.8rem;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .student-grid {
-      grid-template-columns: 1fr;
-    }
-    
-    .stats-section {
-      flex-direction: column;
-      align-items: center;
-    }
   }
 </style>
 
 <script>
-  // Search and filter functionality
-  const searchInput = document.getElementById('searchInput') as HTMLInputElement;
-  const filterButtons = document.querySelectorAll('.filter-btn');
-  const studentCards = document.querySelectorAll('.student-card');
-  const universityGroups = document.querySelectorAll('.university-group');
-  const noResults = document.getElementById('noResults');
+  const searchInput = document.getElementById("searchInput") as HTMLInputElement;
+  const liveCount = document.getElementById("liveCount") as HTMLParagraphElement;
+  const filterBtns = document.querySelectorAll<HTMLButtonElement>(".filter-btn");
+  const rows = document.querySelectorAll<HTMLElement>(".student-row");
+  const sections = document.querySelectorAll<HTMLElement>(".university-section");
+  const noResults = document.getElementById("noResults") as HTMLElement;
 
-  let currentUniversityFilter = 'all';
+  let activeUni = "all";
 
-  function filterStudents() {
-    const searchTerm = searchInput.value.toLowerCase().trim();
-    let visibleCount = 0;
-    const universityVisibleCount: Record<string, number> = {};
+  function update() {
+    const term = searchInput.value.toLowerCase().trim();
+    let visible = 0;
+    const sectionCounts: Record<string, number> = {};
 
-    studentCards.forEach(card => {
-      const name = card.getAttribute('data-name') || '';
-      const university = card.getAttribute('data-university') || '';
-      const department = card.getAttribute('data-department') || '';
-      
-      const matchesSearch = name.includes(searchTerm) || 
-                           university.toLowerCase().includes(searchTerm) || 
-                           department.includes(searchTerm);
-      
-      const matchesUniversity = currentUniversityFilter === 'all' || 
-                               university === currentUniversityFilter;
-
-      const isVisible = matchesSearch && matchesUniversity;
-      
-      (card as HTMLElement).style.display = isVisible ? 'block' : 'none';
-      
-      if (isVisible) {
-        visibleCount++;
-        universityVisibleCount[university] = (universityVisibleCount[university] || 0) + 1;
+    rows.forEach(row => {
+      const name = row.dataset.name ?? "";
+      const uni = row.dataset.university ?? "";
+      const dept = row.dataset.department ?? "";
+      const matchSearch = !term || name.includes(term) || uni.includes(term) || dept.includes(term);
+      const matchUni = activeUni === "all" || uni === activeUni.toLowerCase();
+      const show = matchSearch && matchUni;
+      row.style.display = show ? "" : "none";
+      if (show) {
+        visible++;
+        sectionCounts[uni] = (sectionCounts[uni] ?? 0) + 1;
       }
     });
 
-    // Show/hide university groups
-    universityGroups.forEach(group => {
-      const university = group.getAttribute('data-university') || '';
-      const hasVisibleStudents = universityVisibleCount[university] > 0;
-      const matchesUniversityFilter = currentUniversityFilter === 'all' || university === currentUniversityFilter;
-      
-      (group as HTMLElement).style.display = (hasVisibleStudents && matchesUniversityFilter) ? 'block' : 'none';
+    sections.forEach(sec => {
+      const uni = (sec.dataset.university ?? "").toLowerCase();
+      sec.style.display = (sectionCounts[uni] ?? 0) > 0 ? "" : "none";
     });
 
-    // Show/hide no results message
-    if (noResults) {
-      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    noResults.classList.toggle("hidden", visible > 0);
+
+    if (term || activeUni !== "all") {
+      liveCount.textContent = `Showing ${visible} student${visible !== 1 ? "s" : ""}`;
+    } else {
+      liveCount.textContent = "";
     }
   }
 
-  // Search input event listener
-  if (searchInput) {
-    searchInput.addEventListener('input', filterStudents);
-  }
+  searchInput.addEventListener("input", update);
 
-  // Filter button event listeners
-  filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      // Remove active class from all buttons
-      filterButtons.forEach(btn => btn.classList.remove('active'));
-      
-      // Add active class to clicked button
-      button.classList.add('active');
-      
-      // Update current filter
-      currentUniversityFilter = button.getAttribute('data-university') || 'all';
-      
-      // Apply filters
-      filterStudents();
+  filterBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      filterBtns.forEach(b => {
+        b.classList.remove("active-filter");
+        b.style.backgroundColor = "";
+        b.style.borderColor = "";
+        b.style.color = "";
+      });
+      btn.classList.add("active-filter");
+      activeUni = btn.dataset.uni ?? "all";
+      update();
     });
   });
 
-  // Initialize
-  filterStudents();
+  update();
 </script>
